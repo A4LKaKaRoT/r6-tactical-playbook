@@ -127,6 +127,22 @@
   ],
   "projectChangelog": [
     {
+      "version": "2.0.0",
+      "date": "2026-11-12",
+      "changes": [
+        "Vollständige Überarbeitung der Oberfläche in Richtung AAA-Spieleportal: tiefschwarze Basis (#0b0d0c), große Bildflächen, harte Rasterkanten statt Karten-Karree, keine Glas-Effekte, keine runden Buttons.",
+        "Neue Startseite: randloser Hero mit echtem Karten-Keyart, darunter eine Zeilenliste für den Direkteinstieg, danach Schauplatz-Teaser und Ranked-Pool als Bildraster.",
+        "Panels neu gedacht: keine Kästen mehr, sondern Sektionen mit Haarlinie, kurzer Akzentkante und Mono-Label – Inhalte tragen die Fläche, nicht der Rahmen.",
+        "Karten-Kacheln jetzt echt 16:9 (Aspect-Ratio statt Bildhöhe) mit Titel und Statistikzeile darunter, Hover mit langsamem Bild-Zoom und Lichtkante.",
+        "Navigation: eine Zeile, Aktivzustand als 2-px-Unterkante, Schnellmodus separat rechts; mobil Vollbreite-Drawer statt runder Buttons.",
+        "Buttons, Auswahlgruppen, Filter und Suche auf eine gemeinsame Formsprache gebracht (Radius 2 px, klar getrennte Hover-, Aktiv- und Fokus-Zustände).",
+        "Taktik-Kopf, Editor, Einstellungen und Schnellmodus für Tablet und Handy nachgezogen: keine Überläufe, keine abgeschnittenen Bedienelemente, Aktionsleisten brechen sauber um.",
+        "Karte: Trefferfläche der Marker bleibt auch bei 600 % Zoom fingertauglich (34 px unsichtbar), Marker selbst weiterhin konstant 23 px.",
+        "Druckansicht überarbeitet: Karte kompakt, Text in Schwarz auf Weiß, Bedienelemente lesbar.",
+        "PWA-Farben, App-Icons, Favicon und Service-Worker-Cache auf die neue Optik umgestellt."
+      ]
+    },
+    {
       "version": "1.4.0",
       "date": "2026-11-12",
       "changes": [

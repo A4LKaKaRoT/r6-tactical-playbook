@@ -177,7 +177,7 @@ Alle Assets werden über `import.meta.env.BASE_URL` aufgelöst (`src/lib/paths.t
 ```
 src/
   main.tsx, App.tsx          # Bootstrap + Routing (BrowserRouter mit BASE_URL)
-  styles.css                 # komplettes Design (Anthrazit, Rot=Angriff, Blau=Verteidigung, Grün=Intel)
+  styles.css                 # komplettes Design (Tiefschwarz, Rot=Angriff, Blau=Verteidigung, Oliv=Intel)
   types.ts                   # alle Datentypen
   lib/
     queries.ts               # Datenzugriff + Ban-Engine (adjustTacticForBans)
@@ -197,22 +197,30 @@ scripts/                     # fetch-assets, build-operators, build-tactics, val
 
 ## Design-System
 
-Die Oberfläche folgt einer eigenen Richtung: **Military Operations × Professional Esports × Tactical Intelligence**.
-Kein Dashboard-Look, keine Verläufe, keine Glow-Effekte, keine Emoji-Icons.
+Die Oberfläche folgt einer eigenen Richtung: **Ubisoft-AAA-Spieleportal × Siege × Tactical Ops Center**.
+Kein Dashboard-Look, keine Karten-Karrees, keine großen runden Buttons, keine Glas-Effekte, keine Emoji-Icons.
+Große Bildflächen tragen das Layout, Text sitzt auf Rasterkanten, Kästen gibt es nur dort, wo sie Information tragen.
 
 | Ebene | Entscheidung |
 |---|---|
-| **Flächen** | Graphit-Palette (`#171a18` / `#202521` / `#282e29`), 1-px-Kanten `#3a423b`, Radius max. 3 px |
+| **Flächen** | Tiefschwarz-Palette (`#0b0d0c` / `#101312` / `#161a18` / `#1d2220`), Haar-Linien mit 7 % Weiß, Radius 2 px – Kästen nur, wo sie Information tragen |
 | **Trennung** | Linien statt Schatten; Schatten nur für echte Overlays (Modal, mobile Navigation) |
-| **Farbe als Signal** | Oliv `#8fa06a` = Intel/bestätigt · Rot `#c4534b` = Angriff · Blau `#5b88b3` = Verteidigung · Gelb `#c8a05a` = Warnung/Utility · Grün `#6f9c7a` = OK |
+| **Farbe als Signal** | Oliv `#a8b878` = Intel/bestätigt · Rot `#d8453c` = Angriff · Blau `#4a90d9` = Verteidigung · Gelb `#d9a741` = Warnung/Utility · Grün `#6fb07f` = OK |
 | **Typografie** | IBM Plex Sans (UI) + IBM Plex Mono (IDs, Werte, Zeitstempel, Labels). Dateien liegen in `public/fonts/`, kein CDN |
 | **Abstände** | 4-px-Skala (`--s1` … `--s7`), keine Einzelwerte |
-| **Chips** | mono, Versalien, 10,5 px – Statusinformation, kein Dekor |
-| **Navigation** | eine Zeile, Aktivzustand als Unterkante; mobil ein ausklappbares Panel |
+| **Chips** | mono, Versalien, 10,5 px, Radius 2 px – Statusinformation, kein Dekor |
+| **Bildflächen** | 16:9 (Aspect-Ratio, nicht Bildhöhe), `object-fit: cover`, Hover = langsamer Zoom auf 1,06 plus Lichtkante |
+| **Navigation** | eine Zeile, Aktivzustand als 2-px-Unterkante, Schnellmodus als eigener olive Eintrag rechts; mobil ein Vollbreite-Drawer |
+| **Startseite** | Vollflächiges Karten-Keyart als Hero (Text unten links), darunter Zeilenliste statt Kachelteppich, erst danach der Ranked-Pool als Bildraster |
 | **Taktikseite** | Aufbau wie ein Einsatzbriefing: Kopf + Datenleiste → Karte → Lineup (5 Slots als Einheit) → Phasen → Ersatzpicks → Seitenspalte |
 
 **Ohne CDN:** Schriften, Icons und Blueprints liegen im Repo. Der Service Worker cached sie
-(`/fonts/` cache-first wie die Build-Assets), damit die App auch offline in der richtigen Schrift läuft.
+(`fonts/` cache-first wie die Build-Assets), damit die App auch offline in der richtigen Schrift läuft.
+Die `@font-face`-Pfade stehen relativ (`../fonts/…`), damit sie auch im GitHub-Pages-Unterpfad
+`/r6-tactical-playbook/` auflösen – ein Test wacht darüber.
+
+**Bewegung:** Übergänge 0,14–0,24 s, Bild-Zoom 0,55 s, Hero-Drift 24 s – alles unter
+`prefers-reduced-motion: reduce` abgeschaltet. Kein Parallax, kein Auto-Play, keine Dauer-Animation im Lesefluss.
 
 ---
 
@@ -221,7 +229,7 @@ Kein Dashboard-Look, keine Verläufe, keine Glow-Effekte, keine Emoji-Icons.
 ```bash
 npm run typecheck    # tsc --noEmit (strict)
 npm run validate     # Daten-Validator (Schema, Operatoren, Marker, Assets)
-npm run test         # 33 Vitest-Tests
+npm run test         # 64 Vitest-Tests
 npm run build        # Production-Build + 404.html-Fallback
 npm run check:all    # alles zusammen
 ```

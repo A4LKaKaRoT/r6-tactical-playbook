@@ -360,7 +360,7 @@ export default function TacticMap({ tactic, compact = false, onFloorChange, tall
   const inv = 1 / zoom;
 
   return (
-    <div className={compact ? 'mapblock compact' : 'card mapblock'} style={{ minWidth: 0, ...(compact ? undefined : { padding: 10 }) }}>
+    <div className={compact ? 'mapblock compact' : 'panel mapblock'} style={{ minWidth: 0, ...(compact ? undefined : { padding: 10 }) }}>
       {/* Kopfzeile: Etagen links, Spielerfilter rechts */}
       <div className="map-head row-tight">
         <div className="pill-group" role="tablist" aria-label="Etage">

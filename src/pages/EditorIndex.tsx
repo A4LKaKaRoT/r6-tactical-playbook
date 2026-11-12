@@ -87,7 +87,7 @@ export default function EditorIndex() {
       {msg && <div className="infobox" style={{ marginBottom: 12 }}>{msg}</div>}
 
       {userTactics.length === 0 ? (
-        <div className="card">
+        <div className="panel">
           <p style={{ marginTop: 0 }}>Noch keine eigenen Taktiken.</p>
           <p className="small muted">
             Neue Taktik über <Link to="/editor/new">+ Neue Taktik</Link> – oder eine vorhandene Taktik öffnen und dort
@@ -95,7 +95,7 @@ export default function EditorIndex() {
           </p>
         </div>
       ) : (
-        <div className="card scroll-x">
+        <div className="panel scroll-x">
           <div className="table-scroll">
           <table className="table">
             <thead><tr><th>Name</th><th>Karte</th><th>Seite</th><th>Site</th><th>Picks</th><th>Erstellt</th><th /></tr></thead>
@@ -135,7 +135,7 @@ export default function EditorIndex() {
       </p>
       <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(min(230px, 100%), 1fr))' }}>
         {MAPS.sort((a, b) => a.name.localeCompare(b.name, 'de')).map((m) => (
-          <div className="card tight" key={m.slug}>
+          <div className="panel tight" key={m.slug}>
             <div className="panel-title"><strong>{m.name}</strong></div>
             <div className="row-tight">
               {m.bombSites.map((s) => {

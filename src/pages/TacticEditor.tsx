@@ -184,7 +184,7 @@ export default function TacticEditor() {
       )}
 
       {/* Grunddaten */}
-      <div className="card" style={{ marginBottom: 12 }}>
+      <div className="panel" style={{ marginBottom: 12 }}>
         <div className="panel-title"><strong>Grunddaten</strong></div>
         <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(min(190px, 100%), 1fr))' }}>
           <label className="field">Name
@@ -235,7 +235,7 @@ export default function TacticEditor() {
 
       {/* Spieler */}
       {(draft.players ?? []).map((p) => (
-        <div className="card" style={{ marginBottom: 12, borderLeft: `3px solid var(--line)` }} key={p.slot}>
+        <div className="panel" style={{ marginBottom: 12, borderLeft: `3px solid var(--line)` }} key={p.slot}>
           <div className="panel-title">
             <strong>Slot {p.slot}</strong>
             <span className="row-tight">
@@ -337,7 +337,7 @@ export default function TacticEditor() {
       ))}
 
       {/* Bewertung */}
-      <div className="card" style={{ marginBottom: 12 }}>
+      <div className="panel" style={{ marginBottom: 12 }}>
         <div className="panel-title"><strong>Bewertung</strong></div>
         <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(min(170px, 100%), 1fr))' }}>
           <label className="field">Wettkampf-Eignung (1–5)
@@ -364,7 +364,7 @@ export default function TacticEditor() {
       </div>
 
       {/* Ersatzpicks */}
-      <div className="card" style={{ marginBottom: 12 }}>
+      <div className="panel" style={{ marginBottom: 12 }}>
         <div className="panel-title">
           <strong>Ersatzpicks ({draft.substitutes.length})</strong>
           <button
@@ -380,7 +380,7 @@ export default function TacticEditor() {
           </button>
         </div>
         {draft.substitutes.map((s, i) => (
-          <div className="card tight" key={i} style={{ background: 'var(--bg-3)', marginBottom: 8 }}>
+          <div className="panel tight" key={i} style={{ background: 'var(--bg-3)', marginBottom: 8 }}>
             <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(min(150px, 100%), 1fr))' }}>
               <label className="field">Operator
                 <select className="select" value={s.operator} onChange={(e) => {

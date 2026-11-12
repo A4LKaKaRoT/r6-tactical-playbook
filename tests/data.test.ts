@@ -297,13 +297,19 @@ describe('Kartenbedienung (Zoom, Pinch, Marker)', () => {
 describe('Design-System', () => {
   const css = readFileSync(join(root, 'src/styles.css'), 'utf8');
 
-  it('nutzt die vorgegebene Palette (Graphit/Oliv/Rot/Blau/Gelb)', () => {
-    expect(css).toMatch(/--bg: #171a18/);
-    expect(css).toMatch(/--bg-2: #202521/);
-    expect(css).toMatch(/--bg-3: #282e29/);
-    expect(css).toMatch(/--line: #3a423b/);
-    expect(css).toMatch(/--text: #e9ece6/);
-    expect(css).toMatch(/--text-dim: #a0a79f/);
+  it('nutzt die OPS-CENTER-Palette (Tiefschwarz/Graphit/Oliv/Rot/Blau/Gelb)', () => {
+    expect(css).toMatch(/--bg: #0b0d0c/);
+    expect(css).toMatch(/--bg-2: #161a18/);
+    expect(css).toMatch(/--bg-3: #1d2220/);
+    expect(css).toMatch(/--text: #fff/);
+    expect(css).toMatch(/--attack: #d8453c/);
+    expect(css).toMatch(/--defense: #4a90d9/);
+    expect(css).toMatch(/--intel: #a8b878/);
+  });
+
+  it('Fonts laden relativ (GitHub-Pages-Unterpfad)', () => {
+    expect(css).toMatch(/url\('\.\.\/fonts\//);
+    expect(css).not.toMatch(/url\('\/fonts\//);
   });
 
   it('Schriften liegen lokal (kein CDN), IBM Plex Sans + Mono', () => {

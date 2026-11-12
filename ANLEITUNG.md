@@ -6,7 +6,7 @@ Alle Befehle werden im Terminal eingegeben. Kopiere sie Zeile für Zeile, Enter 
 Ergebnis am Ende: Das Playbook läuft lokal unter `http://localhost:5173` und ist als
 `https://<dein-github-name>.github.io/r6-tactical-playbook/` kostenlos online.
 
-**Was in der App steckt (Stand 12.11.2026, Design v1.4):** 15 Ranked-Karten, 480 Taktiken
+**Was in der App steckt (Stand 12.11.2026, Design v2.0):** 15 Ranked-Karten, 480 Taktiken
 (120 Standardpläne + 360 Varianten: aggressiv / defensiv / Ban-Alternative),
 78 Operatoren, Schnellmodus, Editor, Ban-System, Favoriten, Offline-Modus.
 Alles ohne Konto und ohne Server.

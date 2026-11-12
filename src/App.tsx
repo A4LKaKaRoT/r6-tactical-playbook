@@ -32,7 +32,7 @@ const NAV = [
 function NotFound() {
   return (
     <div>
-      <div className="brief-kicker">Fehler 404</div>
+      <div className="hero-kicker">Fehler 404</div>
       <h1>Seite nicht gefunden</h1>
       <p className="muted">Die Adresse existiert nicht (mehr).</p>
       <a className="btn" href={import.meta.env.BASE_URL}>Zur Startseite</a>
@@ -55,7 +55,7 @@ function Chrome({ children }: { children: React.ReactNode }) {
           <NavLink to="/" className="brand" onClick={() => setOpen(false)}>
             <span className="brand-mark">R6</span>
             <span>
-              Tactical Playbook
+              <b>Tactical Playbook</b>
               <small>{settings.teamName} · {META.seasonLabel}</small>
             </span>
           </NavLink>
@@ -99,7 +99,7 @@ function Chrome({ children }: { children: React.ReactNode }) {
         </div>
       </div>
 
-      <main className="page">
+      <main className={`page${location.pathname === '/' ? ' page-home' : ''}`}>
         <UpdateBanner />
         {children}
       </main>

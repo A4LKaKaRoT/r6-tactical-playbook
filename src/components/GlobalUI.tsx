@@ -85,7 +85,7 @@ export default function GlobalUI() {
 
       {help && (
         <div className="modal-backdrop" onClick={() => setHelp(false)} role="presentation">
-          <div className="modal card" onClick={(e) => e.stopPropagation()} role="dialog" aria-label="Tastatur-Kürzel">
+          <div className="modal" onClick={(e) => e.stopPropagation()} role="dialog" aria-label="Tastatur-Kürzel">
             <div className="row" style={{ marginBottom: 10 }}>
               <h2 style={{ margin: 0 }}>Tastatur-Kürzel</h2>
               <span className="spacer" />

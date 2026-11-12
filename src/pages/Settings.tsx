@@ -62,7 +62,7 @@ export default function Settings() {
       {msg && <div className="okbox" style={{ marginBottom: 12 }}>{msg}</div>}
 
       <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(min(320px, 100%), 1fr))' }}>
-        <div className="card">
+        <div className="panel">
           <div className="panel-title"><strong>Roster</strong><button className="btn btn-sm" onClick={resetTeam}>Standard</button></div>
           <label className="field" style={{ marginBottom: 8 }}>Teamname
             <input className="input" value={settings.teamName} onChange={(e) => updateSettings({ teamName: e.target.value })} />
@@ -82,7 +82,7 @@ export default function Settings() {
           </div>
         </div>
 
-        <div className="card">
+        <div className="panel">
           <div className="panel-title"><strong>Aktive Bans</strong><span className="chip">{bans.length}</span></div>
           <p className="small muted" style={{ marginTop: 0 }}>
             Bans gelten global und werden in jeder Taktik für Ersatzpicks berücksichtigt.
@@ -98,7 +98,7 @@ export default function Settings() {
           {bans.length > 0 && <button className="btn btn-sm btn-danger" style={{ marginTop: 8 }} onClick={() => setBans([])}>Alle löschen</button>}
         </div>
 
-        <div className="card">
+        <div className="panel">
           <div className="panel-title"><strong>Anzeige</strong></div>
           <label className="row-tight small" style={{ marginBottom: 8 }}>
             <input type="checkbox" checked={settings.quickMode} onChange={(e) => updateSettings({ quickMode: e.target.checked })} />
@@ -117,7 +117,7 @@ export default function Settings() {
           </button>
         </div>
 
-        <div className="card">
+        <div className="panel">
           <div className="panel-title"><strong>Datenbestand</strong></div>
           <dl className="kv">
             <dt>Spielversion</dt><dd>{META.game}</dd>
@@ -142,7 +142,7 @@ export default function Settings() {
 
       <div className="section-head"><h2>App, Offline &amp; Installation</h2></div>
       <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(min(280px, 100%), 1fr))' }}>
-        <div className="card">
+        <div className="panel">
           <div className="panel-title"><strong>Offline-Modus</strong>
             <span className={`chip ${offline.active ? 'intel' : 'warn'}`}>{offline.active ? 'aktiv' : 'nicht aktiv'}</span>
           </div>
@@ -157,7 +157,7 @@ export default function Settings() {
           </ul>
           <button className="btn btn-sm" onClick={() => void applyUpdateAndReload()}>App aktualisieren &amp; neu laden</button>
         </div>
-        <div className="card">
+        <div className="panel">
           <div className="panel-title"><strong>Auf dem Handy installieren</strong><span className="chip">PWA</span></div>
           <ol className="steps small">
             <li><b>Android/Chrome:</b> Menü (⋮) → „App installieren“ bzw. „Zum Startbildschirm hinzufügen“.</li>
@@ -171,7 +171,7 @@ export default function Settings() {
       </div>
 
       <div className="section-head"><h2>Datenprüfung</h2></div>
-      <div className="card">
+      <div className="panel">
         {TACTIC_ISSUES.length === 0 ? (
           <div className="okbox">
             Alle {BASE_TACTICS.length} Taktik-Datensätze sind valide (Schema, 5 Spieler, Marker, Duplikate geprüft) –
@@ -206,7 +206,7 @@ export default function Settings() {
       </div>
 
       <div className="section-head"><h2>Changelog &amp; Versionen</h2></div>
-      <div className="card scroll-x">
+      <div className="panel scroll-x">
         <div className="table-scroll">
         <table className="table">
           <thead><tr><th>Datum</th><th>Thema</th><th>Änderung</th><th>Quelle</th></tr></thead>
@@ -227,7 +227,7 @@ export default function Settings() {
       {META.projectChangelog && META.projectChangelog.length > 0 && (
         <>
           <div className="section-head"><h2>Projekt-Changelog</h2></div>
-          <div className="card">
+          <div className="panel">
             {META.projectChangelog.map((rel) => (
               <div key={rel.version} style={{ marginBottom: 12 }}>
                 <div className="row-tight" style={{ marginBottom: 4 }}>
@@ -244,7 +244,7 @@ export default function Settings() {
       )}
 
       <div className="section-head"><h2>Quellen</h2></div>
-      <div className="card">
+      <div className="panel">
         <ul className="steps">
           {META.sources.map((s) => (
             <li key={s.url}>
@@ -255,7 +255,7 @@ export default function Settings() {
       </div>
 
       <div className="section-head"><h2>Rechtliches &amp; Assets</h2></div>
-      <div className="card">
+      <div className="panel">
         <p className="small muted">
           Inoffizielles Fan-Projekt, nicht mit Ubisoft verbunden. „Tom Clancy’s Rainbow Six Siege“ und alle
           Operator-/Kartennamen sind Marken von Ubisoft. Die App verwendet:

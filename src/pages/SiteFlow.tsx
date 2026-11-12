@@ -247,7 +247,7 @@ function TacticBlock({ tactic, quick }: { tactic: Tactic; quick: boolean }) {
           <TacticMap tactic={tactic} compact />
           <div className="stack" style={{ gap: 8 }}>
             {tactic.attackPlan && (
-              <div className="card tight">
+              <div className="panel tight">
                 <div className="panel-title" style={{ marginBottom: 6 }}>
                   <strong>Execute</strong><span className="chip atk">{tactic.attackPlan.spawn}</span>
                 </div>
@@ -258,14 +258,14 @@ function TacticBlock({ tactic, quick }: { tactic: Tactic; quick: boolean }) {
               </div>
             )}
             {tactic.defensePlan && (
-              <div className="card tight">
+              <div className="panel tight">
                 <div className="panel-title" style={{ marginBottom: 6 }}>
                   <strong>Retake</strong><span className="chip def">Setup</span>
                 </div>
                 <ol className="steps">{tactic.defensePlan.retake.slice(0, 4).map((s, i) => <li key={i}>{s}</li>)}</ol>
               </div>
             )}
-            <div className="card tight">
+            <div className="panel tight">
               <div className="panel-title" style={{ marginBottom: 6 }}><strong>Kernpunkte</strong></div>
               <ul className="steps plain">
                 {tactic.players.slice(0, 3).map((p) => (

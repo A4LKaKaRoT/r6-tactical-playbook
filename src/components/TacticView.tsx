@@ -138,7 +138,7 @@ export default function TacticView({ tactic }: { tactic: Tactic }) {
           <TacticMap tactic={tactic} />
 
           {/* ---------- Lineup als geschlossene Einheit ---------- */}
-          <section className="card flush">
+          <section className="panel flush">
             <div className="panel-title" style={{ padding: '10px 12px 8px', margin: 0 }}>
               <strong>Lineup — {isAtk ? 'Angreifer' : 'Verteidiger'} · 5 Slots</strong>
               <span className="row-tight">
@@ -221,7 +221,7 @@ export default function TacticView({ tactic }: { tactic: Tactic }) {
 
           {/* ---------- Ablaufpläne ---------- */}
           {plan && (
-            <section className="card">
+            <section className="panel">
               <div className="panel-title acc s-attack">
                 <strong>Angriffsplan</strong>
                 <span className="chip atk">{plan.spawn}</span>
@@ -257,7 +257,7 @@ export default function TacticView({ tactic }: { tactic: Tactic }) {
           )}
 
           {def && (
-            <section className="card">
+            <section className="panel">
               <div className="panel-title acc s-defense">
                 <strong>Verteidigungsplan</strong>
                 <span className="chip def">Retake &amp; Roam</span>
@@ -276,7 +276,7 @@ export default function TacticView({ tactic }: { tactic: Tactic }) {
           )}
 
           {/* ---------- Ersatzpicks ---------- */}
-          <section className="card">
+          <section className="panel">
             <div className="panel-title">
               <strong>Ersatzpicks · {tactic.substitutes.length}</strong>
               <button className="btn btn-sm" onClick={() => setShowSubs((v) => !v)}>{showSubs ? 'ausblenden' : 'anzeigen'}</button>
@@ -314,7 +314,7 @@ export default function TacticView({ tactic }: { tactic: Tactic }) {
 
         {/* ---------- Seitenspalte: Bewertung, Bans, Datenstand ---------- */}
         <aside className="sticky-side">
-          <section className={`card s-${isAtk ? 'attack' : 'defense'}`}>
+          <section className={`panel s-${isAtk ? 'attack' : 'defense'}`}>
             <div className="panel-title">
               <strong>Bewertung</strong>
               <span className="mono xsmall faint">{tactic.ratings.competitive}/5</span>
@@ -340,7 +340,7 @@ export default function TacticView({ tactic }: { tactic: Tactic }) {
 
           <BanPanel tactic={tactic} />
 
-          <section className="card tight">
+          <section className="panel tight">
             <div className="panel-title"><strong>Datenstand</strong></div>
             <div className="datalist" style={{ fontSize: 11.5 }}>
               <div><dt>Spiel</dt><dd>{META.game}</dd></div>

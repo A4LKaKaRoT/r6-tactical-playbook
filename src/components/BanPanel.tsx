@@ -35,7 +35,7 @@ export default function BanPanel({ tactic, onApply }: Props) {
   const affected = adjustment.slots.filter((s) => s.replaced);
 
   return (
-    <div className="card">
+    <div className="panel">
       <div className="panel-title">
         <strong>Ban-System</strong>
         <span className="chip">{bans.length} gebannt</span>

@@ -42,7 +42,7 @@ export default function Favorites() {
           Noch keine Favoriten. Öffne eine Taktik und klicke auf „☆ Favorit“ – sie erscheint dann hier und auf der Startseite.
         </div>
       ) : (
-        <div className="card scroll-x">
+        <div className="panel scroll-x">
           <div className="table-scroll">
           <table className="table">
             <thead><tr><th>Seite</th><th>Karte</th><th>Site</th><th>Taktik</th><th>Lineup</th><th /></tr></thead>
@@ -66,7 +66,7 @@ export default function Favorites() {
       {recentTactics.length > 0 && (
         <>
           <div className="section-head"><h2>Zuletzt geöffnet</h2></div>
-          <div className="card flush recent-list">
+          <div className="panel flush recent-list">
             {recentTactics.slice(0, 8).map((t) => (
               <Link key={t.id} to={`/tactic/${t.id}`} className="recent-row">
                 <span className={`chip ${t.side === 'attack' ? 'atk' : 'def'}`}>{t.side === 'attack' ? 'ATK' : 'DEF'}</span>

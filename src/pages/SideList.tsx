@@ -58,7 +58,7 @@ export default function SideList({ side }: { side: 'attack' | 'defense' }) {
         <span className="spacer" />
         <span className="mono xsmall faint">{BASE_TACTICS.filter((t) => t.side === side).length} Einträge</span>
       </div>
-      <div className="card scroll-x">
+      <div className="panel scroll-x">
         <div className="table-scroll">
         <table className="table">
           <thead><tr><th>Karte</th><th>Site</th><th>Taktik</th><th>Lineup</th><th>Stil</th><th>Rating</th></tr></thead>

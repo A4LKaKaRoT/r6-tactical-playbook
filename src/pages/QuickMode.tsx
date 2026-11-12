@@ -82,7 +82,7 @@ export default function QuickMode() {
 
       {tactic ? (
         <div className="stack" style={{ gap: 12 }}>
-          <div className="card" style={{ borderLeft: `3px solid ${side === 'attack' ? 'var(--attack)' : 'var(--defense)'}` }}>
+          <div className="panel" style={{ borderLeft: `3px solid ${side === 'attack' ? 'var(--attack)' : 'var(--defense)'}` }}>
             <div className="row" style={{ alignItems: 'flex-start' }}>
               <div style={{ flex: '1 1 300px' }}>
                 <h2 style={{ marginBottom: 2 }}>{tactic.name}</h2>
@@ -109,7 +109,7 @@ export default function QuickMode() {
           <div className="mapwrap">
             <TacticMap tactic={tactic} compact />
             <div className="stack" style={{ gap: 8 }}>
-              <div className="card tight">
+              <div className="panel tight">
                 <div className="panel-title"><strong>Aufgaben</strong></div>
                 <ul className="steps">
                   {tactic.players.map((p) => (
@@ -117,7 +117,7 @@ export default function QuickMode() {
                   ))}
                 </ul>
               </div>
-              <div className="card tight">
+              <div className="panel tight">
                 <div className="panel-title"><strong>Key-Setup</strong></div>
                 <ol className="steps">
                   {(tactic.attackPlan?.execute ?? tactic.defensePlan?.retake ?? []).slice(0, 5).map((s, i) => <li key={i}>{s}</li>)}

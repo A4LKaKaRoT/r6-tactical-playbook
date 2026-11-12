@@ -14,7 +14,7 @@
  * `activate` gelöscht, damit keine alten Taktiken hängen bleiben.
  * ========================================================================= */
 
-const VERSION = 'v1.4.0';
+const VERSION = 'v2.0.0';
 const CACHE = `r6pb-${VERSION}`;
 const OFFLINE_URL = './index.html';
 

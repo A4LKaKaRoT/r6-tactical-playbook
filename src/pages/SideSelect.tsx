@@ -74,7 +74,7 @@ export default function SideSelect({ side }: { side: 'attack' | 'defense' }) {
       </div>
 
       <div className="section-head"><h2>Alle Taktiken dieser Karte</h2></div>
-      <div className="card scroll-x">
+      <div className="panel scroll-x">
         <div className="table-scroll">
         <table className="table">
           <thead><tr><th>Taktik</th><th>Site</th><th>Stil</th><th>Lineup</th><th>Bewertung</th></tr></thead>

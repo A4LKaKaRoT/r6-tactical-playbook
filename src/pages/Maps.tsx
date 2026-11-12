@@ -86,7 +86,7 @@ export default function Maps() {
       <div className="section-head">
         <h2>Archiv – nicht im Ranked-Pool</h2>
       </div>
-      <div className="card">
+      <div className="panel">
         <p className="small muted" style={{ marginTop: 0 }}>{META.archiveNote}</p>
         <div className="row-tight">
           {META.archivePool.map((slug) => (
@@ -98,7 +98,7 @@ export default function Maps() {
       <div className="section-head">
         <h2>Siege Cup – Rotation</h2>
       </div>
-      <div className="card">
+      <div className="panel">
         <p className="small muted" style={{ marginTop: 0 }}>
           <b>{META.siegeCup.rotationLabel}.</b> {META.siegeCup.note}
         </p>

@@ -76,7 +76,7 @@ export default function Tactics() {
       {rows.length === 0 ? (
         <div className="infobox">Keine Taktik passt zu dieser Suche.</div>
       ) : (
-        <div className="card scroll-x">
+        <div className="panel scroll-x">
           <div className="table-scroll">
           <table className="table">
             <thead>
