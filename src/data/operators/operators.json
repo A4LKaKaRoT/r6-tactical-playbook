@@ -1,0 +1,2044 @@
+[
+  {
+    "slug": "ace",
+    "name": "Ace",
+    "role": "attack",
+    "org": "NIGHTHAVEN",
+    "squad": "NIGHTHAVEN",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 1,
+    "ability": {
+      "name": "S.E.L.M.A. Aqua Breacher",
+      "description": "S.E.L.M.A. Aqua Breacher: wasserfester Hard Breach an Wänden & Hatches"
+    },
+    "weapons": [
+      {
+        "name": "AK-12 / M1014",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "alibi",
+    "name": "Alibi",
+    "role": "defense",
+    "org": "GIS",
+    "squad": "VIPERSTRIKE",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 3,
+    "ability": {
+      "name": "Prisma",
+      "description": "Prisma: Projektion-Attrappen, Intel bei Beschuss"
+    },
+    "weapons": [
+      {
+        "name": "Mx4 Storm / ACS12",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "amaru",
+    "name": "Amaru",
+    "role": "attack",
+    "org": "APCA",
+    "squad": "REDHAMMER",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "Gar Hook",
+      "description": "Gar Hook: schnellem Repel-/Einstieg über Fenster & Luken"
+    },
+    "weapons": [
+      {
+        "name": "G8A1 / SuperNova",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "aruni",
+    "name": "Aruni",
+    "role": "defense",
+    "org": "NIGHTHAVEN",
+    "squad": "NIGHTHAVEN",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 2,
+    "ability": {
+      "name": "Surya-Gate",
+      "description": "Surya-Gate: verstärkte Laserbarriere an Türen/Durchgängen"
+    },
+    "weapons": [
+      {
+        "name": "P10 RONI / Mk 14 EBR",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "ash",
+    "name": "Ash",
+    "role": "attack",
+    "org": "FBI SWAT",
+    "squad": "REDHAMMER",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 2,
+    "ability": {
+      "name": "Breaching Round",
+      "description": "Breaching Round: Soft-Breach auf Distanz, zerstört Gadgets (z. B. Shields)"
+    },
+    "weapons": [
+      {
+        "name": "R4-C / G36C",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "azami",
+    "name": "Azami",
+    "role": "defense",
+    "org": "UNAFFILIATED",
+    "squad": "VIPERSTRIKE",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 3,
+    "ability": {
+      "name": "Kiba-Barriere",
+      "description": "Kiba-Barriere: sofort verfestigende Barrikaden (Line-of-Sight-Control)"
+    },
+    "weapons": [
+      {
+        "name": "9x19VSN / ACS12",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "bandit",
+    "name": "Bandit",
+    "role": "defense",
+    "org": "GSG 9",
+    "squad": "WOLFGUARD",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 1,
+    "ability": {
+      "name": "Bandit-Batterie",
+      "description": "Bandit-Batterie: Elektro-Hard-Breach-Denial (Bandit-Trick)"
+    },
+    "weapons": [
+      {
+        "name": "MP7 / M870",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "blackbeard",
+    "name": "Blackbeard",
+    "role": "attack",
+    "org": "NAVY SEAL",
+    "squad": "REDHAMMER",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 1,
+    "ability": {
+      "name": "Hull Shield",
+      "description": "Hull Shield: montiert einen zerstörbaren Schutzschild am Gewehr (Kopfschutz beim Winkel-Halten)"
+    },
+    "weapons": [
+      {
+        "name": "MK17 CQB / SR-25",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "blitz",
+    "name": "Blitz",
+    "role": "attack",
+    "org": "GSG 9",
+    "squad": "VIPERSTRIKE",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 3,
+    "ability": {
+      "name": "Blitzschild",
+      "description": "Blitzschild: Schild-Blitze blenden; nahkampffokussierter Entry"
+    },
+    "weapons": [
+      {
+        "name": "Blitzschild",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "brava",
+    "name": "Brava",
+    "role": "attack",
+    "org": "COT",
+    "squad": "VIPERSTRIKE",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 3,
+    "ability": {
+      "name": "Kludge Drone",
+      "description": "Kludge Drone: übernimmt feindliche Gadgets"
+    },
+    "weapons": [
+      {
+        "name": "CAMRS / PARA-308",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "buck",
+    "name": "Buck",
+    "role": "attack",
+    "org": "JTF2",
+    "squad": "REDHAMMER",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 1,
+    "ability": {
+      "name": "Skeleton Key",
+      "description": "Skeleton Key: Unterlauf-Schrotflinte für Boden/Wände (Vertikal-Spiel)"
+    },
+    "weapons": [
+      {
+        "name": "C8-SFW / CAMRS",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "capitao",
+    "name": "Capitão",
+    "role": "attack",
+    "org": "BOPE",
+    "squad": "VIPERSTRIKE",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 2,
+    "ability": {
+      "name": "Tactical Crossbow",
+      "description": "Tactical Crossbow: Feuerbolzen (Area Denial) + Rauchbolzen"
+    },
+    "weapons": [
+      {
+        "name": "PARA-308 / M249",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "castle",
+    "name": "Castle",
+    "role": "defense",
+    "org": "FBI SWAT",
+    "squad": "WOLFGUARD",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "Bulletproof-Camera + Armor Panel",
+      "description": "Bulletproof-Camera + Armor Panel: verstärkte Barrikade, die nur Sprengstoff öffnet"
+    },
+    "weapons": [
+      {
+        "name": "UMP45 / M1014",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "caveira",
+    "name": "Caveira",
+    "role": "defense",
+    "org": "BOPE",
+    "squad": "GHOSTEYES",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 3,
+    "ability": {
+      "name": "Silent Step",
+      "description": "Silent Step: lautloses Laufen + Interrogation (Anti-Roam-Clear)"
+    },
+    "weapons": [
+      {
+        "name": "M12 / SPAS-15",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "clash",
+    "name": "Clash",
+    "role": "defense",
+    "org": "GSUTR",
+    "squad": "WOLFGUARD",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 3,
+    "ability": {
+      "name": "Electrified CCE Shield",
+      "description": "Electrified CCE Shield: verlangsamt und schädigt Gegner bei Kontakt"
+    },
+    "weapons": [
+      {
+        "name": "SPSMG9 / CCE Shield",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "deimos",
+    "name": "Deimos",
+    "role": "attack",
+    "org": "KERES LEGION",
+    "squad": "UNAFFILIATED",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "DeathMARK Tracker",
+      "description": "DeathMARK Tracker: markiert Gegner, der für Deimos sichtbar ist"
+    },
+    "weapons": [
+      {
+        "name": "AK-74M / M590A1",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "denari",
+    "name": "Denari",
+    "role": "defense",
+    "org": "NIGHTHAVEN",
+    "squad": "NIGHTHAVEN",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 3,
+    "ability": {
+      "name": "T.R.I.P. Connector",
+      "description": "T.R.I.P. Connector: Laser-Gittersystem (verlangsamt + Schaden)"
+    },
+    "weapons": [
+      {
+        "name": "SIX12 SD / 9x19VSN",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "doc",
+    "name": "Doc",
+    "role": "defense",
+    "org": "GIGN",
+    "squad": "WOLFGUARD",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 1,
+    "ability": {
+      "name": "Stim-Pistole",
+      "description": "Stim-Pistole: heilt/bufft Teammates auf 140 HP"
+    },
+    "weapons": [
+      {
+        "name": "MP5 / P90 / SG-CQB",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "dokkaebi",
+    "name": "Dokkaebi",
+    "role": "attack",
+    "org": "707th SMB",
+    "squad": "VIPERSTRIKE",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 2,
+    "ability": {
+      "name": "Jegeo Payload + Logic Bomb (Handy-Klingeln/Ring), Kamera-Hack (Rework Y11S2)",
+      "description": "Jegeo Payload + Logic Bomb (Handy-Klingeln/Ring), Kamera-Hack (Rework Y11S2)"
+    },
+    "weapons": [
+      {
+        "name": "Mk 14 EBR / BOSG.12.2",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "echo",
+    "name": "Echo",
+    "role": "defense",
+    "org": "SAT",
+    "squad": "VIPERSTRIKE",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 3,
+    "ability": {
+      "name": "Yokai",
+      "description": "Yokai: unsichtbare Schockdrohne (Y11S3 schnellerer Schock-Recharge)"
+    },
+    "weapons": [
+      {
+        "name": "MP5SD / SuperNova",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "ela",
+    "name": "Ela",
+    "role": "defense",
+    "org": "GROM",
+    "squad": "NIGHTHAVEN",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 1,
+    "ability": {
+      "name": "Grzmot Mine",
+      "description": "Grzmot Mine: 4x Concussion-Minen (Blendung + Störung)"
+    },
+    "weapons": [
+      {
+        "name": "Scorpion EVO 3 A1 / FO-12",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "fenrir",
+    "name": "Fenrir",
+    "role": "defense",
+    "org": "UNAFFILIATED",
+    "squad": "REDHAMMER",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 3,
+    "ability": {
+      "name": "F-NATT Dread Mine",
+      "description": "F-NATT Dread Mine: Gasminen aktivieren nur für Gegner"
+    },
+    "weapons": [
+      {
+        "name": "MP7 / SASG-12",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "finka",
+    "name": "Finka",
+    "role": "attack",
+    "org": "CBRN THREAT UNIT",
+    "squad": "NIGHTHAVEN",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 1,
+    "ability": {
+      "name": "Adrenalin Surge",
+      "description": "Adrenalin Surge: HP-Buff + schnelleres Anvisieren + Wiederbeleben"
+    },
+    "weapons": [
+      {
+        "name": "Spear .308 / 6P41 / SASG-12",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "flores",
+    "name": "Flores",
+    "role": "attack",
+    "org": "UNAFFILIATED",
+    "squad": "GHOSTEYES",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "RCE-Ratero",
+      "description": "RCE-Ratero: ferngesteuerte Sprengdrohne (Gadget- & Shield-Denial)"
+    },
+    "weapons": [
+      {
+        "name": "AR-33 / Commando 9",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "frost",
+    "name": "Frost",
+    "role": "defense",
+    "org": "JTF2",
+    "squad": "VIPERSTRIKE",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 1,
+    "ability": {
+      "name": "Welcome-Mat",
+      "description": "Welcome-Mat: Beinfallen unter Fenstern & Durchgängen"
+    },
+    "weapons": [
+      {
+        "name": "9mm C1 / Super 90",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "fuze",
+    "name": "Fuze",
+    "role": "attack",
+    "org": "SPETSNAZ",
+    "squad": "REDHAMMER",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 1,
+    "ability": {
+      "name": "Cluster Charge",
+      "description": "Cluster Charge: 5 Ladungen für Vertikal-Spiel durch Böden"
+    },
+    "weapons": [
+      {
+        "name": "AK-12 / 6P41 / Ballistic Shield",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "glaz",
+    "name": "Glaz",
+    "role": "attack",
+    "org": "SPETSNAZ",
+    "squad": "GHOSTEYES",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 2,
+    "ability": {
+      "name": "Thermal-Scope",
+      "description": "Thermal-Scope: Wärmebild durch Rauch (Post-Plant-Hold)"
+    },
+    "weapons": [
+      {
+        "name": "OTs-03",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "goyo",
+    "name": "Goyo",
+    "role": "defense",
+    "org": "FUERZAS ESPECIALES",
+    "squad": "REDHAMMER",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "Volcán Shield",
+      "description": "Volcán Shield: brennbare Barrikade im Schild – Area Denial"
+    },
+    "weapons": [
+      {
+        "name": "Vector .45 ACP / TCSG12 + Ballistic Shield",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "gridlock",
+    "name": "Gridlock",
+    "role": "attack",
+    "org": "SASR",
+    "squad": "REDHAMMER",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 1,
+    "ability": {
+      "name": "Trax Stingers",
+      "description": "Trax Stingers: Stachelmatten blockieren Flanken & verlangsamen"
+    },
+    "weapons": [
+      {
+        "name": "F90 / M249 SAW",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "grim",
+    "name": "Grim",
+    "role": "attack",
+    "org": "NIGHTHAVEN",
+    "squad": "NIGHTHAVEN",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 1,
+    "ability": {
+      "name": "Kawan Hive Launcher",
+      "description": "Kawan Hive Launcher: Bienen-Schwarm markiert Gegner im Bereich"
+    },
+    "weapons": [
+      {
+        "name": "552 COMMANDO / SG-CQB",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "hibana",
+    "name": "Hibana",
+    "role": "attack",
+    "org": "SAT",
+    "squad": "VIPERSTRIKE",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 1,
+    "ability": {
+      "name": "X-KAIROS",
+      "description": "X-KAIROS: 6 fernzündbare Breach-Ladungen, Hard Breach auf Distanz"
+    },
+    "weapons": [
+      {
+        "name": "Type-89 / SuperNova",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "iana",
+    "name": "Iana",
+    "role": "attack",
+    "org": "REU",
+    "squad": "GHOSTEYES",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 1,
+    "ability": {
+      "name": "Gemini Replicator",
+      "description": "Gemini Replicator: Hologramm-Drohne als intel- und Bait-Tool"
+    },
+    "weapons": [
+      {
+        "name": "ARX200 / G36C",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "iq",
+    "name": "IQ",
+    "role": "attack",
+    "org": "GSG 9",
+    "squad": "NIGHTHAVEN",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 3,
+    "ability": {
+      "name": "Elektronik-Scanner",
+      "description": "Elektronik-Scanner: sieht Gadgets (und aktuell dokkaebi-Ziele) durch Wände"
+    },
+    "weapons": [
+      {
+        "name": "AUG A2 / 552 COMMANDO / G8A1",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "jackal",
+    "name": "Jackal",
+    "role": "attack",
+    "org": "GEO",
+    "squad": "VIPERSTRIKE",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 3,
+    "ability": {
+      "name": "Eyenox Model III",
+      "description": "Eyenox Model III: Fußspuren-Tracking, markiert Roamer"
+    },
+    "weapons": [
+      {
+        "name": "C7E / PDW9 / ITA12L",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "jager",
+    "name": "Jäger",
+    "role": "defense",
+    "org": "GSG 9",
+    "squad": "VIPERSTRIKE",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "Active Defense",
+      "description": "Active Defense: zerstört Projektile (Granaten, Flashs, Ash Rounds)"
+    },
+    "weapons": [
+      {
+        "name": "416-C Carbine / M870",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "kaid",
+    "name": "Kaid",
+    "role": "defense",
+    "org": "GIGR",
+    "squad": "REDHAMMER",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 2,
+    "ability": {
+      "name": "Electroclaw",
+      "description": "Electroclaw: Elektro an nicht erreichbaren Stellen (Hatches)"
+    },
+    "weapons": [
+      {
+        "name": "AUG A3 / TCSG12",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "kali",
+    "name": "Kali",
+    "role": "attack",
+    "org": "NIGHTHAVEN",
+    "squad": "NIGHTHAVEN",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "V-Lance",
+      "description": "V-Lance: zerstört Gadgets durch Wände; Y11S3: ADS während V-Lance"
+    },
+    "weapons": [
+      {
+        "name": "CSRX 300",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "kapkan",
+    "name": "Kapkan",
+    "role": "defense",
+    "org": "SPETSNAZ",
+    "squad": "REDHAMMER",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 1,
+    "ability": {
+      "name": "Entry-Denial-Devices",
+      "description": "Entry-Denial-Devices: Sprengfallen an Fenstern/Türen; Y11S3: mehr Schaden"
+    },
+    "weapons": [
+      {
+        "name": "9x19VSN / SASG-12 / Jäger-Falle",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "lesion",
+    "name": "Lesion",
+    "role": "defense",
+    "org": "SDU",
+    "squad": "GHOSTEYES",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 1,
+    "ability": {
+      "name": "Gu-Mine",
+      "description": "Gu-Mine: Giftmine, verlangsamt + Intel"
+    },
+    "weapons": [
+      {
+        "name": "T-5 SMG / SIX12 SD",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "lion",
+    "name": "Lion",
+    "role": "attack",
+    "org": "CBRN THREAT UNIT",
+    "squad": "WOLFGUARD",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 1,
+    "ability": {
+      "name": "EE-One-D",
+      "description": "EE-One-D: Bewegungs-Scan, markiert laufende Gegner"
+    },
+    "weapons": [
+      {
+        "name": "V308 / 417 / SG-CQB",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "maestro",
+    "name": "Maestro",
+    "role": "defense",
+    "org": "GIS",
+    "squad": "VIPERSTRIKE",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 2,
+    "ability": {
+      "name": "Evil Eye",
+      "description": "Evil Eye: kugelsichere Überwachungskamera mit Laser (Crowd Control)"
+    },
+    "weapons": [
+      {
+        "name": "ALDA 5.56 / ACS12",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "maverick",
+    "name": "Maverick",
+    "role": "attack",
+    "org": "GSUTR",
+    "squad": "GHOSTEYES",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 2,
+    "ability": {
+      "name": "Suri-Brenner",
+      "description": "Suri-Brenner: schmilzt kleine Löcher in verstärkte Wände (Hard Breach ohne Ladung)"
+    },
+    "weapons": [
+      {
+        "name": "M4 / AR-15.50",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "melusi",
+    "name": "Melusi",
+    "role": "defense",
+    "org": "INKABA TASK FORCE",
+    "squad": "WOLFGUARD",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 1,
+    "ability": {
+      "name": "Banshee",
+      "description": "Banshee: verlangsamt Gegner im Radius, Alarm bei Berührung"
+    },
+    "weapons": [
+      {
+        "name": "MP5 / Super 90",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "mira",
+    "name": "Mira",
+    "role": "defense",
+    "org": "GEO",
+    "squad": "VIPERSTRIKE",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 3,
+    "ability": {
+      "name": "Black-Mirror",
+      "description": "Black-Mirror: Einweg-Spiegel in verstärkter Wand, Retake/Intel"
+    },
+    "weapons": [
+      {
+        "name": "Vector .45 ACP / ITA12S",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "montagne",
+    "name": "Montagne",
+    "role": "attack",
+    "org": "GIGN",
+    "squad": "WOLFGUARD",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 3,
+    "ability": {
+      "name": "Le Roc",
+      "description": "Le Roc: ausfahrbarer Vollschild, extrem langsam, perfekt für Plant-Blocks"
+    },
+    "weapons": [
+      {
+        "name": "Le Roc-Schild",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "mozzie",
+    "name": "Mozzie",
+    "role": "defense",
+    "org": "SASR",
+    "squad": "GHOSTEYES",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "Pest Launcher",
+      "description": "Pest Launcher: fängt Angreifer-Drohnen"
+    },
+    "weapons": [
+      {
+        "name": "Commando 9 / P10 RONI",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "mute",
+    "name": "Mute",
+    "role": "defense",
+    "org": "SAS",
+    "squad": "VIPERSTRIKE",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 1,
+    "ability": {
+      "name": "Signal Disruptor",
+      "description": "Signal Disruptor: blockiert Durchbruch-Ladungen, Hard Breach & Dokkaebi-Hack"
+    },
+    "weapons": [
+      {
+        "name": "MP5K / M590A1",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "nokk",
+    "name": "Nøkk",
+    "role": "attack",
+    "org": "JAEGER CORPS",
+    "squad": "GHOSTEYES",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 3,
+    "ability": {
+      "name": "HEL Presence Reduction",
+      "description": "HEL Presence Reduction: unsichtbar für Kameras, leiser"
+    },
+    "weapons": [
+      {
+        "name": "FMG-9 / SIX12 SD",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "nomad",
+    "name": "Nomad",
+    "role": "attack",
+    "org": "GIGR",
+    "squad": "WOLFGUARD",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 3,
+    "ability": {
+      "name": "Airjab Launcher",
+      "description": "Airjab Launcher: sprengt Gegner zurück (Flank-Schutz, Plant-Denial)"
+    },
+    "weapons": [
+      {
+        "name": "AK-74M / ARX200",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "noor",
+    "name": "Noor",
+    "role": "defense",
+    "org": "Unit 777",
+    "squad": "—",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "Horus Lance",
+      "description": "Horus Lance: 5 Projektile durch Schilde/Wände, beidseitige Flammenfront – Anti-Shield"
+    },
+    "weapons": [
+      {
+        "name": "Commando-9 / ALDA 5.56",
+        "type": "Primär"
+      },
+      {
+        "name": "TACOPS 1911 / Bailiff 410",
+        "type": "Sekundär"
+      }
+    ],
+    "gadgets": [
+      "Stacheldraht",
+      "Deployable Shield"
+    ],
+    "tags": [
+      "Anti-Entry",
+      "Anti-Shield",
+      "Crowd Control"
+    ],
+    "source": "ubisoft",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "oryx",
+    "name": "Oryx",
+    "role": "defense",
+    "org": "UNAFFILIATED",
+    "squad": "REDHAMMER",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "Remah Dash",
+      "description": "Remah Dash: schnelle Rotation durch Softwalls, Springen über Luken"
+    },
+    "weapons": [
+      {
+        "name": "MP5 / SPAS-12",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "osa",
+    "name": "Osa",
+    "role": "attack",
+    "org": "NIGHTHAVEN",
+    "squad": "NIGHTHAVEN",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 2,
+    "ability": {
+      "name": "Talon-8 Clear Shield",
+      "description": "Talon-8 Clear Shield: aufstellbares Schild, das sie durchschauen kann"
+    },
+    "weapons": [
+      {
+        "name": "556 COMMANDO / ARX200",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "pulse",
+    "name": "Pulse",
+    "role": "defense",
+    "org": "FBI SWAT",
+    "squad": "NIGHTHAVEN",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 3,
+    "ability": {
+      "name": "Heartbeat-Sensor",
+      "description": "Heartbeat-Sensor: sieht Herzschläge durch Wände, vertikale Information"
+    },
+    "weapons": [
+      {
+        "name": "UMP45 / M1014",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "ram",
+    "name": "Ram",
+    "role": "attack",
+    "org": "35th CB",
+    "squad": "REDHAMMER",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 2,
+    "ability": {
+      "name": "BU-GI Auto-Breacher",
+      "description": "BU-GI Auto-Breacher: fährt durch Softwalls, zerstört alles auf dem Weg"
+    },
+    "weapons": [
+      {
+        "name": "R4-C / LMG-E",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "rauora",
+    "name": "Rauora",
+    "role": "attack",
+    "org": "NZSAS",
+    "squad": "VIPERSTRIKE",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "D.O.M. Launcher",
+      "description": "D.O.M. Launcher: kugelsichere Panels in Türrahmen, öffnen schneller für Angreifer"
+    },
+    "weapons": [
+      {
+        "name": "M249 / 417",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "rook",
+    "name": "Rook",
+    "role": "defense",
+    "org": "GIGN",
+    "squad": "VIPERSTRIKE",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 1,
+    "ability": {
+      "name": "Armor-Pack",
+      "description": "Armor-Pack: Rüstung mit Down-Wiederbelebung"
+    },
+    "weapons": [
+      {
+        "name": "MP5 / P90 / SG-CQB",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "sens",
+    "name": "Sens",
+    "role": "attack",
+    "org": "SFG",
+    "squad": "WOLFGUARD",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 2,
+    "ability": {
+      "name": "R.O.U. Projector",
+      "description": "R.O.U. Projector: vernebelte Sichtbarriere für sichere Pushs"
+    },
+    "weapons": [
+      {
+        "name": "POF-9 / 417 / TCSG12",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "sentry",
+    "name": "Sentry",
+    "role": "defense",
+    "org": "ROS",
+    "squad": "none",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 1,
+    "ability": {
+      "name": "Faltbare Barrikade + Kamera – Allround-Verteidiger",
+      "description": "Faltbare Barrikade + Kamera – Allround-Verteidiger"
+    },
+    "weapons": [
+      {
+        "name": "Spear .308 / M870",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "skopos",
+    "name": "Skopós",
+    "role": "defense",
+    "org": "EKAM",
+    "squad": "WOLFGUARD",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "Vanguard-Roboter",
+      "description": "Vanguard-Roboter: tauscht zwischen zwei Körpern"
+    },
+    "weapons": [
+      {
+        "name": "M4 / Mx4 Storm",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "sledge",
+    "name": "Sledge",
+    "role": "attack",
+    "org": "SAS",
+    "squad": "REDHAMMER",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 1,
+    "ability": {
+      "name": "Breaching Hammer",
+      "description": "Breaching Hammer: zerstört Softwalls, Barrikaden, Bodenluken"
+    },
+    "weapons": [
+      {
+        "name": "L85A2 / M590A1",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "smoke",
+    "name": "Smoke",
+    "role": "defense",
+    "org": "SAS",
+    "squad": "REDHAMMER",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "Remote-Gas-Granate",
+      "description": "Remote-Gas-Granate: 3x toxischer Rauch – Top-Plant-Denial"
+    },
+    "weapons": [
+      {
+        "name": "FMG-9 / M590A1",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "solid-snake",
+    "name": "Solid Snake",
+    "role": "attack",
+    "org": "FOXHOUND",
+    "squad": "—",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 2,
+    "ability": {
+      "name": "Soliton Radar Mk. III",
+      "description": "Soliton Radar Mk. III: top-down Scan, erkennt Gegner + Wände/Böden"
+    },
+    "weapons": [
+      {
+        "name": "Tacit .45",
+        "type": "Sekundär",
+        "note": "Integrierter Schalldämpfer"
+      }
+    ],
+    "gadgets": [
+      "Rauchgranaten",
+      "Breach Charge"
+    ],
+    "tags": [
+      "Intel",
+      "Infiltration"
+    ],
+    "source": "ubisoft",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "solis",
+    "name": "Solis",
+    "role": "defense",
+    "org": "AFEAU",
+    "squad": "GHOSTEYES",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 3,
+    "ability": {
+      "name": "SPEC-IO",
+      "description": "SPEC-IO: scannt Gadgets durch Wände, markiert Elektronik"
+    },
+    "weapons": [
+      {
+        "name": "P90 / ITA12S / SMG-11",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "striker",
+    "name": "Striker",
+    "role": "attack",
+    "org": "ROS",
+    "squad": "none",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 1,
+    "ability": {
+      "name": "Breach-Rounds & Smokes – Allround-Einstiegs-Angreifer",
+      "description": "Breach-Rounds & Smokes – Allround-Einstiegs-Angreifer"
+    },
+    "weapons": [
+      {
+        "name": "M4 / M249",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "tachanka",
+    "name": "Tachanka",
+    "role": "defense",
+    "org": "SPETSNAZ",
+    "squad": "REDHAMMER",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 1,
+    "ability": {
+      "name": "Shumikha-Shumikha Launcher",
+      "description": "Shumikha-Shumikha Launcher: Brand- und Sperrfeuer (Y11S3 Balancing)"
+    },
+    "weapons": [
+      {
+        "name": "DP27 / M870",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "thatcher",
+    "name": "Thatcher",
+    "role": "attack",
+    "org": "SAS",
+    "squad": "VIPERSTRIKE",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 1,
+    "ability": {
+      "name": "EMP-Granate",
+      "description": "EMP-Granate: deaktiviert Elektro-Gadgets (Bandit/Kaid/Mute) im Radius"
+    },
+    "weapons": [
+      {
+        "name": "AR33 / L85A2 / M590A1",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "thermite",
+    "name": "Thermite",
+    "role": "attack",
+    "org": "FBI SWAT",
+    "squad": "REDHAMMER",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 1,
+    "ability": {
+      "name": "Thermite Charge",
+      "description": "Thermite Charge: Hard Breach in Außenwänden & verstärkten Hatches"
+    },
+    "weapons": [
+      {
+        "name": "M1014 / 556xi",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "thorn",
+    "name": "Thorn",
+    "role": "defense",
+    "org": "EMERGENCY RESPONSE UNIT",
+    "squad": "REDHAMMER",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 1,
+    "ability": {
+      "name": "Razorbloom",
+      "description": "Razorbloom: Stachelfalle mit zeitverzögertem Gift"
+    },
+    "weapons": [
+      {
+        "name": "UZK50GI / M870",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "thunderbird",
+    "name": "Thunderbird",
+    "role": "defense",
+    "org": "STAR-NET AVIATION",
+    "squad": "WOLFGUARD",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 1,
+    "ability": {
+      "name": "Kóna-Station",
+      "description": "Kóna-Station: Heil-Station, die auch Angreifer heilt"
+    },
+    "weapons": [
+      {
+        "name": "Spear .308 / SPAS-15",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "tubarao",
+    "name": "Tubarão",
+    "role": "defense",
+    "org": "DAE",
+    "squad": "WOLFGUARD",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "Zoto Canister",
+      "description": "Zoto Canister: friert Gadgets und Flächen ein, deaktiviert Elektronik"
+    },
+    "weapons": [
+      {
+        "name": "MPX / M590A1",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "twitch",
+    "name": "Twitch",
+    "role": "attack",
+    "org": "GIGN",
+    "squad": "WOLFGUARD",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "Shock Drone",
+      "description": "Shock Drone: zerstört Gadgets, Kameras und Gadget-Träger"
+    },
+    "weapons": [
+      {
+        "name": "F2 / 417 / SG-CQB",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "valkyrie",
+    "name": "Valkyrie",
+    "role": "defense",
+    "org": "NAVY SEALS",
+    "squad": "GHOSTEYES",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "Black Eye",
+      "description": "Black Eye: 3 werfbare Kameras, Außen- und Flank-Intel"
+    },
+    "weapons": [
+      {
+        "name": "MPX / SPAS-12",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "vigil",
+    "name": "Vigil",
+    "role": "defense",
+    "org": "707th SMB",
+    "squad": "GHOSTEYES",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 3,
+    "ability": {
+      "name": "ERC-7",
+      "description": "ERC-7: unsichtbar für Drohnen und Kameras (Roam-Intel-Denial)"
+    },
+    "weapons": [
+      {
+        "name": "K1A / BOSG.12.2",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "wamai",
+    "name": "Wamai",
+    "role": "defense",
+    "org": "NIGHTHAVEN",
+    "squad": "NIGHTHAVEN",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "Mag-NET",
+      "description": "Mag-NET: zieht Projektile an und absorbiert sie"
+    },
+    "weapons": [
+      {
+        "name": "AUG A2 / MP5K",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "warden",
+    "name": "Warden",
+    "role": "defense",
+    "org": "SECRET SERVICE",
+    "squad": "GHOSTEYES",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "Glance Smart Glasses",
+      "description": "Glance Smart Glasses: Durchblick durch Rauch, Flash-Resistenz beim Stehen"
+    },
+    "weapons": [
+      {
+        "name": "MPX / M590A1 / P-10C",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Verteidigung"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "ying",
+    "name": "Ying",
+    "role": "attack",
+    "org": "SDU",
+    "squad": "WOLFGUARD",
+    "speed": 2,
+    "health": 2,
+    "difficulty": 2,
+    "ability": {
+      "name": "Candela",
+      "description": "Candela: Blendgranaten, die durch Softwalls/Barrikaden wirken"
+    },
+    "weapons": [
+      {
+        "name": "T-95 LSW / SIX12",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "zero",
+    "name": "Zero",
+    "role": "attack",
+    "org": "ROS",
+    "squad": "GHOSTEYES",
+    "speed": 3,
+    "health": 1,
+    "difficulty": 1,
+    "ability": {
+      "name": "Argus Launcher",
+      "description": "Argus Launcher: Kameras mit Laser an Wänden/Decken (Intel + Gadget-Zerstörung)"
+    },
+    "weapons": [
+      {
+        "name": "SC3000K / MP7",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  },
+  {
+    "slug": "zofia",
+    "name": "Zofia",
+    "role": "attack",
+    "org": "GROM",
+    "squad": "GHOSTEYES",
+    "speed": 1,
+    "health": 3,
+    "difficulty": 1,
+    "ability": {
+      "name": "KS79 Lifeline",
+      "description": "KS79 Lifeline: 2 Impact-Granaten + 2 Concussions"
+    },
+    "weapons": [
+      {
+        "name": "M762 / LMG-E",
+        "type": "Primär"
+      }
+    ],
+    "gadgets": [],
+    "tags": [
+      "Angriff"
+    ],
+    "source": "r6operators",
+    "updated": "2026-11-11"
+  }
+]

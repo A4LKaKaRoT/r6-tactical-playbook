@@ -1,0 +1,94 @@
+name: Deploy to GitHub Pages
+
+# ---------------------------------------------------------------------------
+# Bei jedem Push auf main:
+#   1. Node 20 + npm ci
+#   2. Taktiken/Varianten neu bauen, Daten validieren, Tests
+#   3. Production-Build mit BASE_PATH=/<repo-name>/ (Project Pages)
+#   4. dist/ als Pages-Artefakt hochladen und deployen
+#
+# Einmalig im Repo: Settings → Pages → Source: "GitHub Actions"
+# ---------------------------------------------------------------------------
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build & Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Node.js LTS einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Abhaengigkeiten installieren
+        run: npm ci
+
+      - name: Taktiken und Varianten erzeugen
+        run: npm run tactics:build
+
+      - name: Daten validieren
+        run: npm run validate
+
+      - name: Tests
+        run: npm test
+
+      - name: Build mit Repo-Pfad als base
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}/
+        run: npm run build
+
+      - name: Build pruefen
+        run: |
+          set -e
+          test -f dist/index.html || { echo "dist/index.html fehlt"; exit 1; }
+          test -f dist/404.html || { echo "dist/404.html fehlt (SPA-Fallback)"; exit 1; }
+          test -f dist/sw.js || { echo "dist/sw.js fehlt (Offline-Modus)"; exit 1; }
+          test -f dist/manifest.webmanifest || { echo "Manifest fehlt (PWA)"; exit 1; }
+          test -d dist/maps -a -d dist/operators || { echo "Bilder fehlen"; exit 1; }
+          grep -q "/assets/" dist/index.html || { echo "Asset-Pfade fehlen"; exit 1; }
+          echo "Build-Sanity-Check OK"
+
+      - name: Pages-Artefakt hochladen
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deployment
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Zusammenfassung
+        run: |
+          {
+            echo "### Deployed"
+            echo ""
+            echo "**URL:** ${{ steps.deployment.outputs.page_url }}"
+            echo ""
+            echo "Tiefe Links laufen ueber die 404.html (SPA-Fallback)."
+            echo "Offline-Modus/Installation: Einstellungen -> App, Offline und Installation."
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,245 @@
+[
+  {
+    "slug": "kanal",
+    "name": "Kanal",
+    "location": "Hamburg, Deutschland",
+    "floors": ["B", "1F", "2F"],
+    "ranked": true,
+    "siegeCup": true,
+    "pro": false,
+    "updated": "2026-11-11",
+    "notes": "Seit 15.10.2026 zurück im Ranked-Pool. Zwei Gebäude (KG & Coast Guard) mit Brücke – Rotations müssen früh geplant werden.",
+    "spawns": [
+      { "name": "Spawn Bridge (Süd)", "floor": "1F", "x": 55, "y": 80 },
+      { "name": "Construction Site (Nord)", "floor": "2F", "x": 50, "y": 12 },
+      { "name": "Boat Docks (West)", "floor": "1F", "x": 32, "y": 60 }
+    ],
+    "bombSites": [
+      { "id": "server", "name": "Server Room / Radar Room", "short": "Server", "floors": ["2F"] },
+      { "id": "security", "name": "Security Room / Maps Room", "short": "Security", "floors": ["1F"] },
+      { "id": "coast-guard", "name": "Coast Guard Meeting Room / Lounge", "short": "Coast Guard", "floors": ["1F"] },
+      { "id": "supply", "name": "Supply Room / Kayaks", "short": "Supply", "floors": ["B"] }
+    ],
+    "callouts": [
+      "Bridge", "Main Entrance", "Security Room", "Maps Room", "Coast Guard", "Lounge",
+      "Server Room", "Radar Room", "Supply Room", "Kayaks", "Boat Docks", "Construction"
+    ],
+    "landmarks": [
+      { "id": "supply", "floor": "B", "x": 63, "y": 48, "label": "Supply Room" },
+      { "id": "kayaks", "floor": "B", "x": 67, "y": 52, "label": "Kayaks" },
+      { "id": "b-hall", "floor": "B", "x": 58, "y": 52, "label": "Basement Hall" },
+      { "id": "security", "floor": "1F", "x": 55, "y": 42, "label": "Security Room" },
+      { "id": "maps", "floor": "1F", "x": 59, "y": 46, "label": "Maps Room" },
+      { "id": "coast-guard", "floor": "1F", "x": 65, "y": 45, "label": "Coast Guard" },
+      { "id": "lounge", "floor": "1F", "x": 68, "y": 50, "label": "Lounge" },
+      { "id": "bridge", "floor": "1F", "x": 50, "y": 55, "label": "Bridge / Connector" },
+      { "id": "server", "floor": "2F", "x": 56, "y": 42, "label": "Server Room" },
+      { "id": "radar", "floor": "2F", "x": 62, "y": 40, "label": "Radar Room" },
+      { "id": "hall-2f", "floor": "2F", "x": 60, "y": 49, "label": "2F Hallway" },
+      { "id": "roof", "floor": "2F", "x": 66, "y": 55, "label": "Roof Access" }
+    ]
+  },
+  {
+    "slug": "lair",
+    "name": "Lair",
+    "location": "Keres-Legion-Basis, Portugal",
+    "floors": ["B", "1F", "2F"],
+    "ranked": true,
+    "siegeCup": false,
+    "pro": true,
+    "updated": "2026-11-11",
+    "notes": "Pro-Pool. Dichte Innenräume, sehr vertikal – Hatch-Kontrolle entscheidet die Runde.",
+    "spawns": [
+      { "name": "Cave Entrance (Süd)", "floor": "1F", "x": 60, "y": 78 },
+      { "name": "Ridge (Nord)", "floor": "1F", "x": 55, "y": 25 },
+      { "name": "Tunnel (Ost)", "floor": "1F", "x": 74, "y": 55 }
+    ],
+    "bombSites": [
+      { "id": "master", "name": "Master Office / R6 Room", "short": "Master", "floors": ["2F"] },
+      { "id": "bunks", "name": "Bunks / Briefing", "short": "Bunks", "floors": ["1F"] },
+      { "id": "armory", "name": "Armory / Weapon Maintenance", "short": "Armory", "floors": ["1F"] },
+      { "id": "lab", "name": "Lab / Lab Support", "short": "Lab", "floors": ["B"] }
+    ],
+    "callouts": [
+      "Master Office", "R6 Room", "Bunks", "Briefing", "Armory", "Weapon Maintenance",
+      "Lab", "Lab Support", "Cave", "Tunnel", "Ridge", "Hatch"
+    ],
+    "landmarks": [
+      { "id": "lab", "floor": "B", "x": 58, "y": 52, "label": "Lab" },
+      { "id": "lab-support", "floor": "B", "x": 64, "y": 54, "label": "Lab Support" },
+      { "id": "b-hall", "floor": "B", "x": 55, "y": 58, "label": "Basement Hall" },
+      { "id": "bunks", "floor": "1F", "x": 58, "y": 50, "label": "Bunks" },
+      { "id": "briefing", "floor": "1F", "x": 52, "y": 54, "label": "Briefing" },
+      { "id": "armory", "floor": "1F", "x": 62, "y": 48, "label": "Armory" },
+      { "id": "weapon-maint", "floor": "1F", "x": 66, "y": 51, "label": "Weapon Maintenance" },
+      { "id": "cave", "floor": "1F", "x": 59, "y": 62, "label": "Cave / Entrance" },
+      { "id": "master", "floor": "2F", "x": 59, "y": 47, "label": "Master Office" },
+      { "id": "r6-room", "floor": "2F", "x": 64, "y": 50, "label": "R6 Room" },
+      { "id": "hall-2f", "floor": "2F", "x": 57, "y": 55, "label": "2F Hallway" },
+      { "id": "hatch-2f", "floor": "2F", "x": 52, "y": 57, "label": "Hatch / Catwalk" }
+    ]
+  },
+  {
+    "slug": "nighthaven",
+    "name": "Nighthaven Labs",
+    "location": "Nighthaven HQ, Singapur",
+    "floors": ["B", "1F", "2F"],
+    "ranked": true,
+    "siegeCup": true,
+    "pro": true,
+    "updated": "2026-11-11",
+    "notes": "Pro-Pool. Hoher Koordinationsbedarf: viele Sichtlinien und zwei starke Außenwände.",
+    "spawns": [
+      { "name": "Beach (Süd)", "floor": "1F", "x": 55, "y": 82 },
+      { "name": "Helipad (Nord)", "floor": "2F", "x": 62, "y": 14 },
+      { "name": "West Gate (West)", "floor": "1F", "x": 40, "y": 55 }
+    ],
+    "bombSites": [
+      { "id": "command", "name": "Command Center / Servers", "short": "Command", "floors": ["2F"] },
+      { "id": "kitchen", "name": "Kitchen / Cafeteria", "short": "Kitchen", "floors": ["1F"] },
+      { "id": "control", "name": "Control Room / Storage", "short": "Control", "floors": ["1F"] },
+      { "id": "tank", "name": "Tank / Assembly", "short": "Tank", "floors": ["B"] }
+    ],
+    "callouts": [
+      "Command Center", "Servers", "Kitchen", "Cafeteria", "Control Room", "Storage",
+      "Tank", "Assembly", "Helipad", "Beach", "Skylight", "Garage"
+    ],
+    "landmarks": [
+      { "id": "tank", "floor": "B", "x": 58, "y": 45, "label": "Tank" },
+      { "id": "assembly", "floor": "B", "x": 63, "y": 48, "label": "Assembly" },
+      { "id": "b-hall", "floor": "B", "x": 55, "y": 50, "label": "Basement Hall" },
+      { "id": "kitchen", "floor": "1F", "x": 55, "y": 45, "label": "Kitchen" },
+      { "id": "cafeteria", "floor": "1F", "x": 60, "y": 47, "label": "Cafeteria" },
+      { "id": "control", "floor": "1F", "x": 52, "y": 52, "label": "Control Room" },
+      { "id": "storage", "floor": "1F", "x": 57, "y": 55, "label": "Storage" },
+      { "id": "stairs", "floor": "1F", "x": 63, "y": 43, "label": "Main Stairs" },
+      { "id": "command", "floor": "2F", "x": 58, "y": 45, "label": "Command Center" },
+      { "id": "servers", "floor": "2F", "x": 62, "y": 47, "label": "Servers" },
+      { "id": "hall-2f", "floor": "2F", "x": 55, "y": 50, "label": "2F Hallway" },
+      { "id": "office", "floor": "2F", "x": 52, "y": 46, "label": "Office / Corridor" }
+    ]
+  },
+  {
+    "slug": "oregon",
+    "name": "Oregon",
+    "location": "Redmond, Oregon, USA",
+    "floors": ["B", "1F", "2F", "3F"],
+    "ranked": true,
+    "siegeCup": true,
+    "pro": false,
+    "updated": "2026-11-11",
+    "notes": "Seit 15.10.2026 zurück im Ranked-Pool. Laundry (B) und Kids' Dorms (2F) sind die Kern-Sites.",
+    "spawns": [
+      { "name": "Construction (Süd)", "floor": "1F", "x": 55, "y": 78 },
+      { "name": "Meeting Hall (Nord)", "floor": "1F", "x": 52, "y": 30 },
+      { "name": "Campfire (West)", "floor": "1F", "x": 32, "y": 60 }
+    ],
+    "bombSites": [
+      { "id": "kids", "name": "Kids' Dorms / Dorms Main Hall", "short": "Kids", "floors": ["2F"] },
+      { "id": "kitchen", "name": "Kitchen / Dining Hall", "short": "Kitchen", "floors": ["1F"] },
+      { "id": "meeting", "name": "Meeting Hall / Kitchen", "short": "Meeting", "floors": ["1F"] },
+      { "id": "laundry", "name": "Laundry Room / Supply Room", "short": "Laundry", "floors": ["B"] }
+    ],
+    "callouts": [
+      "Kids' Dorms", "Dorms Main Hall", "Kitchen", "Dining Hall", "Meeting Hall", "Laundry Room",
+      "Supply Room", "Dorms", "Tower", "Attic", "Meeting Room", "Construction"
+    ],
+    "landmarks": [
+      { "id": "laundry", "floor": "B", "x": 52, "y": 46, "label": "Laundry Room" },
+      { "id": "supply", "floor": "B", "x": 57, "y": 50, "label": "Supply Room" },
+      { "id": "b-hall", "floor": "B", "x": 55, "y": 56, "label": "Basement Hall" },
+      { "id": "kitchen", "floor": "1F", "x": 51, "y": 52, "label": "Kitchen" },
+      { "id": "dining", "floor": "1F", "x": 56, "y": 55, "label": "Dining Hall" },
+      { "id": "meeting", "floor": "1F", "x": 47, "y": 46, "label": "Meeting Hall" },
+      { "id": "main-hall-1f", "floor": "1F", "x": 53, "y": 42, "label": "1F Hallway" },
+      { "id": "kitchen-1f", "floor": "1F", "x": 49, "y": 57, "label": "Kitchen / Prep" },
+      { "id": "kids", "floor": "2F", "x": 51, "y": 48, "label": "Kids' Dorms" },
+      { "id": "dorms-hall", "floor": "2F", "x": 56, "y": 52, "label": "Dorms Main Hall" },
+      { "id": "tower", "floor": "2F", "x": 47, "y": 55, "label": "Tower / Corridor" },
+      { "id": "hall-2f", "floor": "2F", "x": 54, "y": 57, "label": "2F Hallway" },
+      { "id": "attic", "floor": "3F", "x": 53, "y": 43, "label": "Attic / Roof Hatch" }
+    ]
+  },
+  {
+    "slug": "outback",
+    "name": "Outback",
+    "location": "Red Heart, Australien",
+    "floors": ["1F", "2F"],
+    "ranked": true,
+    "siegeCup": true,
+    "pro": false,
+    "updated": "2026-11-11",
+    "notes": "Seit 15.10.2026 zurück im Ranked-Pool. Party/Piano (2F) und Mechanic/Kitchen (1F) sind die Hauptsites.",
+    "spawns": [
+      { "name": "Road (Nord)", "floor": "1F", "x": 40, "y": 15 },
+      { "name": "Truck (Süd)", "floor": "1F", "x": 42, "y": 78 },
+      { "name": "Gas Station (Ost)", "floor": "1F", "x": 74, "y": 45 }
+    ],
+    "bombSites": [
+      { "id": "piano", "name": "Piano Room / Laundry", "short": "Piano", "floors": ["2F"] },
+      { "id": "party", "name": "Party Room / Office", "short": "Party", "floors": ["2F"] },
+      { "id": "green", "name": "Green Bedroom / Red Bedroom", "short": "Bedrooms", "floors": ["1F"] },
+      { "id": "mechanic", "name": "Mechanic Shop / Kitchen", "short": "Mechanic", "floors": ["1F"] }
+    ],
+    "callouts": [
+      "Piano Room", "Laundry", "Party Room", "Office", "Green Bedroom", "Red Bedroom",
+      "Mechanic Shop", "Kitchen", "Garage", "Dorms", "Bar", "Courtyard"
+    ],
+    "landmarks": [
+      { "id": "mechanic", "floor": "1F", "x": 48, "y": 40, "label": "Mechanic Shop" },
+      { "id": "kitchen", "floor": "1F", "x": 54, "y": 44, "label": "Kitchen" },
+      { "id": "green", "floor": "1F", "x": 42, "y": 33, "label": "Green Bedroom" },
+      { "id": "red", "floor": "1F", "x": 47, "y": 30, "label": "Red Bedroom" },
+      { "id": "bar-outback", "floor": "1F", "x": 50, "y": 53, "label": "Bar" },
+      { "id": "garage", "floor": "1F", "x": 55, "y": 58, "label": "Garage" },
+      { "id": "courtyard", "floor": "1F", "x": 52, "y": 47, "label": "Courtyard / Hall" },
+      { "id": "piano", "floor": "2F", "x": 46, "y": 35, "label": "Piano Room" },
+      { "id": "laundry", "floor": "2F", "x": 51, "y": 39, "label": "Laundry" },
+      { "id": "party", "floor": "2F", "x": 55, "y": 46, "label": "Party Room" },
+      { "id": "office", "floor": "2F", "x": 50, "y": 50, "label": "Office" },
+      { "id": "hall-2f", "floor": "2F", "x": 53, "y": 43, "label": "2F Hallway" }
+    ]
+  },
+  {
+    "slug": "villa",
+    "name": "Villa",
+    "location": "Toskana, Italien",
+    "floors": ["B", "1F", "2F"],
+    "ranked": true,
+    "siegeCup": true,
+    "pro": true,
+    "updated": "2026-11-11",
+    "notes": "ZURÜCK im Pro-Pool seit Y11S3 (ersetzt Consulate). Targeted Map Update: Living Room/Library als neue Basement-Site (Art Storage / Old Office), Garage jetzt innen.",
+    "spawns": [
+      { "name": "Main Gate (Nord)", "floor": "1F", "x": 78, "y": 22 },
+      { "name": "Side Entrance (Süd)", "floor": "1F", "x": 72, "y": 72 },
+      { "name": "Wine Cellar (West)", "floor": "1F", "x": 62, "y": 55 }
+    ],
+    "bombSites": [
+      { "id": "aviator", "name": "Aviator Room / Games Room", "short": "Aviator", "floors": ["2F"] },
+      { "id": "trophy", "name": "Trophy Room / Statuary Room", "short": "Trophy", "floors": ["2F"] },
+      { "id": "dining", "name": "Dining Room / Kitchen", "short": "Dining", "floors": ["1F"] },
+      { "id": "art-storage", "name": "Art Storage / Old Office (NEU: Basement-Site)", "short": "Art/Office", "floors": ["B"] }
+    ],
+    "callouts": [
+      "Aviator Room", "Games Room", "Trophy Room", "Statuary Room", "Dining Room", "Kitchen",
+      "Art Storage", "Old Office", "Library", "Living Room", "Garage", "Wine Cellar", "Courtyard"
+    ],
+    "landmarks": [
+      { "id": "art", "floor": "B", "x": 77, "y": 19, "label": "Art Storage" },
+      { "id": "old-office", "floor": "B", "x": 80, "y": 24, "label": "Old Office" },
+      { "id": "b-hall-villa", "floor": "B", "x": 76, "y": 28, "label": "Basement Hall" },
+      { "id": "garage-villa", "floor": "B", "x": 73, "y": 33, "label": "Garage (interior)" },
+      { "id": "dining", "floor": "1F", "x": 76, "y": 32, "label": "Dining Room" },
+      { "id": "kitchen-villa", "floor": "1F", "x": 80, "y": 37, "label": "Kitchen" },
+      { "id": "library", "floor": "1F", "x": 74, "y": 40, "label": "Library / Living" },
+      { "id": "main-hall", "floor": "1F", "x": 78, "y": 42, "label": "Main Hall" },
+      { "id": "study", "floor": "1F", "x": 81, "y": 44, "label": "Study" },
+      { "id": "aviator", "floor": "2F", "x": 77, "y": 30, "label": "Aviator Room" },
+      { "id": "games", "floor": "2F", "x": 81, "y": 34, "label": "Games Room" },
+      { "id": "trophy", "floor": "2F", "x": 76, "y": 38, "label": "Trophy Room" },
+      { "id": "statuary", "floor": "2F", "x": 80, "y": 42, "label": "Statuary Room" },
+      { "id": "hall-2f", "floor": "2F", "x": 78, "y": 45, "label": "2F Hallway" }
+    ]
+  }
+]

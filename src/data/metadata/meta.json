@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "game": "Tom Clancy's Rainbow Six Siege",
+  "year": 2026,
+  "season": 3,
+  "operation": "Operation Split Fire",
+  "operationLaunch": "2026-09-01",
+  "midSeasonPatch": "2026-10-15",
+  "lastUpdated": "2026-11-11",
+  "metaVersion": "1.0.0",
+  "tacticVersion": "1.4.0",
+  "mapVersion": "1.0.0",
+  "rankedPool": [
+    "bank",
+    "border",
+    "calypso-casino",
+    "chalet",
+    "clubhouse",
+    "coastline",
+    "consulate",
+    "fortress",
+    "kafe",
+    "kanal",
+    "lair",
+    "nighthaven",
+    "oregon",
+    "outback",
+    "villa"
+  ],
+  "proPool": [
+    "bank",
+    "border",
+    "chalet",
+    "clubhouse",
+    "fortress",
+    "kafe",
+    "lair",
+    "nighthaven",
+    "villa"
+  ],
+  "rankedPoolUpdated": "2026-10-15",
+  "proPoolUpdated": "2026-09-01",
+  "siegeCup": {
+    "rotationLabel": "Wechselnde Rotation pro Cup-Ausgabe",
+    "maps": [
+      "kafe",
+      "kanal",
+      "nighthaven",
+      "oregon",
+      "outback",
+      "villa"
+    ],
+    "note": "Der Siege Cup nutzt seit Y10 eine pro Ausgabe wechselnde Kartenrotation (meist 4 Maps, z. B. Nighthaven Labs/Villa/Kafe/Lair am 25.10.2026). Es gibt keine dauerhafte Siege-Cup-Liste. Hier hinterlegt sind die zuletzt gemeldeten bzw. für 2026 belegten Cup-Maps; vor jedem Cup die Ankündigung im Spiel prüfen.",
+    "source": "siege.gg (Siege Cup Mappools), Ubisoft-Siege-Cup-Ankündigungen 2026"
+  },
+  "balanceHighlights": [
+    {
+      "date": "2026-10-15",
+      "topic": "Noor (Buff)",
+      "change": "Horus Lance: kürzere Bohrzzeit/Equip, Direktschaden 50 → 80.",
+      "source": "Split-Fire-Mid-Season-Patchnotes"
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "Ranked-Mappool",
+      "change": "Kanal, Outback und Oregon zurück im Pool; Skyscraper und Theme Park raus (letzte Rotation in Y11).",
+      "source": "Ubisoft / siege.gg"
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "Utility",
+      "change": "Ram's BU-GI wird von Stacheldraht vollständig gestoppt; Feuer-Schaden angepasst; Tachanka, Valkyrie, Clash, Osa angepasst.",
+      "source": "Split-Fire-Mid-Season-Patchnotes"
+    },
+    {
+      "date": "2026-09-01",
+      "topic": "Kali (Buff)",
+      "change": "CSRX-Scopes 5x/12x → 3,5x/8x, kürzere Zeit zwischen Schüssen, mehr Munition, V-Lance auch im ADS.",
+      "source": "Y11S3 Launch-Patchnotes"
+    },
+    {
+      "date": "2026-09-01",
+      "topic": "Dokkaebi (Rework-Nachbesserung)",
+      "change": "EMP-Granaten → Breach Charges; Jegeo Payload jetzt unterbrechbar (Mute-Jammer, Tubarão) und per Solis ortbar.",
+      "source": "Y11S3 Launch-Patchnotes"
+    },
+    {
+      "date": "2026-09-01",
+      "topic": "Defender-Support",
+      "change": "Lion EE-One-D: weniger Vorwarnzeit; Echo Yokai: schnellere Schock-Recharge; Kapkan EDD: mehr Schaden.",
+      "source": "Y11S3 Launch-Patchnotes"
+    },
+    {
+      "date": "2026-09-01",
+      "topic": "Waffen",
+      "change": "AR-15.50 und MK14 EBR: Schaden unter 60, mehr Rückstoß, kein Muzzle Brake; SMG-12 angepasst.",
+      "source": "Y11S3 Launch-Patchnotes"
+    },
+    {
+      "date": "2026-09-01",
+      "topic": "Neuer Operator",
+      "change": "Noor (Verteidigung, Ägypten/Unit 777) mit Horus Lance gegen ballistische Schilde.",
+      "source": "Ubisoft Y11S3 Reveal"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Ubisoft: Y11S3 Operation Split Fire",
+      "url": "https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates"
+    },
+    {
+      "label": "siege.gg: Competitive-Mappool & Villa/Consulate-Wechsel",
+      "url": "https://siege.gg/news/villa-to-replace-consulate-in-rainbow-six-sieges-competitive-map-pool"
+    },
+    {
+      "label": "siege.gg: Siege Cup",
+      "url": "https://siege.gg/news/rainbow-six-siege-x-next-siege-cup-to-be-played-on-october-25"
+    },
+    {
+      "label": "Ubisoft Blueprints (Kartenpläne)",
+      "url": "https://www.ubisoft.com/en-us/game/rainbow-six/siege/game-info/maps"
+    },
+    {
+      "label": "r6operators (MIT) – Operator-Icons & Stammdaten",
+      "url": "https://github.com/marcopixel/r6operators"
+    }
+  ],
+  "projectChangelog": [
+    {
+      "version": "1.4.0",
+      "date": "2026-11-12",
+      "changes": [
+        "Komplettes Redesign in der Richtung Military Operations × Esports × Tactical Intelligence: Graphit-Palette, harte Kanten, Trennlinien statt Schatten, keine Emoji-Icons.",
+        "Eigene Typografie: IBM Plex Sans für die Oberfläche, IBM Plex Mono für IDs, Koordinaten und Zeitstempel – lokal gehostet, offline- und PWA-fähig.",
+        "Taktik-Detailseite als Einsatzbriefing: Kopf mit Datenleiste (Karte, Site, Etage, Stand, Datenbasis), Lineup als geschlossene Fünf-Slot-Einheit, Prep/Action als nummerierter Ablauf.",
+        "Karte: Zwei-Finger-Pinch-Zoom, Doppeltipp-Stufe, Mausrad ohne Seiten-Scroll, neuer Fokus-Knopf (rahmt die Marker), Auto-Fokus beim Öffnen.",
+        "Marker skalieren jetzt invers zum Zoom: Sie bleiben in jeder Zoomstufe gleich groß (22 px) und verdecken die Karte nicht mehr.",
+        "Bedienfehler behoben: Klicks auf Zoom-Leiste wurden vom Drag-Capture geschluckt; schnelles Klicken auf + wurde als Doppeltipp gewertet.",
+        "Navigation und Statuszeile kompakter (eine Zeile, Unterkante als Aktivmarkierung), alle Seiten auf ein gemeinsames Raster und Abstandssystem umgestellt."
+      ]
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-11-11",
+      "changes": [
+        "Varianten: 360 zusätzliche Pläne (aggressiv / defensiv / Ban-Alternative) – jede Site hat jetzt 4 Taktiken pro Seite.",
+        "Offline-Modus und Installation auf dem Handy (Service Worker + PWA-Manifest, eigene Icons).",
+        "Varianten werden als eigener Chunk nachgeladen – der Start bleibt bei ~330 kB.",
+        "Tastatur-Kürzel für den Mid-Match-Einsatz (?, s, m, a, v, t, f, e) und „Nach oben“-Knopf.",
+        "GitHub-Pages-Workflow prüft den Build (404.html, Manifest, Service Worker, Asset-Pfade) und fasst das Deployment zusammen.",
+        "Bugfix: Manifest/Icon-Pfade wurden bei Deep-Links relativ aufgelöst (/tactic/…) und liefen ins 404.",
+        "Bugfix: Site- und Schnellmodus-Ansicht aktualisieren sich nach dem Nachladen der Varianten."
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-11",
+      "changes": [
+        "Abdeckung komplett: 120 Taktiken (60 Verteidigung / 60 Angriff) für alle 60 Karten/Site-Kombinationen.",
+        "Neue Angriffspläne für die 16 zuvor offenen Sites (u. a. Bank CCTV, Villa Dining, Outback Green).",
+        "Defensive für 16 weitere Sites ergänzt; generische Retake-Texte durch site-spezifische ersetzt.",
+        "Daten-Validator prüft jetzt, ob Marker auf Etagen liegen, die es auf der Karte gibt.",
+        "Mobile-Fix: Tabellen und Karten-Toolbar verursachen kein horizontales Überlaufen mehr."
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-11",
+      "changes": [
+        "Zweite Verteidigungs-Welle: 15 Sites ergänzt, Abdeckung 15/15 Karten.",
+        "Interaktive Karte mit Raster, Label-Umschaltung und eigenen Markern.",
+        "Ban-Engine mit Duplikatverbot und Neuberechnung des Lineups."
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-11",
+      "changes": [
+        "Erstveröffentlichung: 58 Taktiken (29/29), Karten, Operatoren, Editor, Schnellmodus, Tests, Deploy-Workflow."
+      ]
+    }
+  ],
+  "archivePool": [
+    "skyscraper",
+    "theme-park",
+    "emerald-plains",
+    "favela",
+    "house",
+    "hereford",
+    "bartlett",
+    "plane",
+    "tower",
+    "yacht",
+    "fort-truth",
+    "neighborhood",
+    "district"
+  ],
+  "archiveNote": "Nicht im Ranked-Pool Y11S3. Für diese Karten sind keine Blueprints/Taktiken importiert – sie erscheinen nur als Archivliste.",
+  "seasonLabel": "Y11S3"
+}

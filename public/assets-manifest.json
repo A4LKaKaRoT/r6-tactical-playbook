@@ -1,0 +1,525 @@
+{
+  "generatedAt": "2026-11-11T21:03:50.492Z",
+  "maps": [
+    {
+      "slug": "bank",
+      "floors": {
+        "B": "maps/bank/floor-B.webp",
+        "1F": "maps/bank/floor-1F.webp",
+        "2F": "maps/bank/floor-2F.webp"
+      },
+      "keyart": "maps/bank/keyart.jpg"
+    },
+    {
+      "slug": "border",
+      "floors": {
+        "1F": "maps/border/floor-1F.webp",
+        "2F": "maps/border/floor-2F.webp"
+      },
+      "keyart": "maps/border/keyart.jpg"
+    },
+    {
+      "slug": "calypso-casino",
+      "floors": {
+        "B": "maps/calypso-casino/floor-B.webp",
+        "1F": "maps/calypso-casino/floor-1F.webp",
+        "2F": "maps/calypso-casino/floor-2F.webp"
+      },
+      "keyart": "maps/calypso-casino/keyart.jpg"
+    },
+    {
+      "slug": "chalet",
+      "floors": {
+        "B": "maps/chalet/floor-B.webp",
+        "1F": "maps/chalet/floor-1F.webp",
+        "2F": "maps/chalet/floor-2F.webp"
+      },
+      "keyart": "maps/chalet/keyart.jpg"
+    },
+    {
+      "slug": "clubhouse",
+      "floors": {
+        "B": "maps/clubhouse/floor-B.webp",
+        "1F": "maps/clubhouse/floor-1F.webp",
+        "2F": "maps/clubhouse/floor-2F.webp"
+      },
+      "keyart": "maps/clubhouse/keyart.jpg"
+    },
+    {
+      "slug": "coastline",
+      "floors": {
+        "1F": "maps/coastline/floor-1F.webp",
+        "2F": "maps/coastline/floor-2F.webp"
+      },
+      "keyart": "maps/coastline/keyart.jpg"
+    },
+    {
+      "slug": "consulate",
+      "floors": {
+        "B": "maps/consulate/floor-B.webp",
+        "1F": "maps/consulate/floor-1F.webp",
+        "2F": "maps/consulate/floor-2F.webp"
+      },
+      "keyart": "maps/consulate/keyart.jpg"
+    },
+    {
+      "slug": "fortress",
+      "floors": {
+        "1F": "maps/fortress/floor-1F.webp",
+        "2F": "maps/fortress/floor-2F.webp"
+      },
+      "keyart": "maps/fortress/keyart.jpg"
+    },
+    {
+      "slug": "kafe",
+      "floors": {
+        "1F": "maps/kafe/floor-1F.webp",
+        "2F": "maps/kafe/floor-2F.webp",
+        "3F": "maps/kafe/floor-3F.webp"
+      },
+      "keyart": "maps/kafe/keyart.jpg"
+    },
+    {
+      "slug": "kanal",
+      "floors": {
+        "B": "maps/kanal/floor-B.webp",
+        "1F": "maps/kanal/floor-1F.webp",
+        "2F": "maps/kanal/floor-2F.webp"
+      },
+      "keyart": "maps/kanal/keyart.jpg"
+    },
+    {
+      "slug": "lair",
+      "floors": {
+        "B": "maps/lair/floor-B.webp",
+        "1F": "maps/lair/floor-1F.webp",
+        "2F": "maps/lair/floor-2F.webp"
+      },
+      "keyart": "maps/lair/keyart.jpg"
+    },
+    {
+      "slug": "nighthaven",
+      "floors": {
+        "B": "maps/nighthaven/floor-B.webp",
+        "1F": "maps/nighthaven/floor-1F.webp",
+        "2F": "maps/nighthaven/floor-2F.webp"
+      },
+      "keyart": "maps/nighthaven/keyart.jpg"
+    },
+    {
+      "slug": "oregon",
+      "floors": {
+        "B": "maps/oregon/floor-B.webp",
+        "1F": "maps/oregon/floor-1F.webp",
+        "2F": "maps/oregon/floor-2F.webp",
+        "3F": "maps/oregon/floor-3F.webp"
+      },
+      "keyart": "maps/oregon/keyart.jpg"
+    },
+    {
+      "slug": "outback",
+      "floors": {
+        "1F": "maps/outback/floor-1F.webp",
+        "2F": "maps/outback/floor-2F.webp"
+      },
+      "keyart": "maps/outback/keyart.jpg"
+    },
+    {
+      "slug": "villa",
+      "floors": {
+        "B": "maps/villa/floor-B.webp",
+        "1F": "maps/villa/floor-1F.webp",
+        "2F": "maps/villa/floor-2F.webp"
+      },
+      "keyart": "maps/villa/keyart.jpg"
+    }
+  ],
+  "operators": [
+    {
+      "slug": "ace",
+      "file": "operators/ace.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "alibi",
+      "file": "operators/alibi.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "amaru",
+      "file": "operators/amaru.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "aruni",
+      "file": "operators/aruni.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "ash",
+      "file": "operators/ash.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "azami",
+      "file": "operators/azami.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "bandit",
+      "file": "operators/bandit.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "blackbeard",
+      "file": "operators/blackbeard.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "blitz",
+      "file": "operators/blitz.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "brava",
+      "file": "operators/brava.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "buck",
+      "file": "operators/buck.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "capitao",
+      "file": "operators/capitao.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "castle",
+      "file": "operators/castle.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "caveira",
+      "file": "operators/caveira.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "clash",
+      "file": "operators/clash.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "deimos",
+      "file": "operators/deimos.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "denari",
+      "file": "operators/denari.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "doc",
+      "file": "operators/doc.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "dokkaebi",
+      "file": "operators/dokkaebi.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "echo",
+      "file": "operators/echo.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "ela",
+      "file": "operators/ela.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "fenrir",
+      "file": "operators/fenrir.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "finka",
+      "file": "operators/finka.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "flores",
+      "file": "operators/flores.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "frost",
+      "file": "operators/frost.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "fuze",
+      "file": "operators/fuze.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "glaz",
+      "file": "operators/glaz.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "goyo",
+      "file": "operators/goyo.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "gridlock",
+      "file": "operators/gridlock.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "grim",
+      "file": "operators/grim.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "hibana",
+      "file": "operators/hibana.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "iana",
+      "file": "operators/iana.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "iq",
+      "file": "operators/iq.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "jackal",
+      "file": "operators/jackal.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "jager",
+      "file": "operators/jager.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "kaid",
+      "file": "operators/kaid.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "kali",
+      "file": "operators/kali.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "kapkan",
+      "file": "operators/kapkan.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "lesion",
+      "file": "operators/lesion.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "lion",
+      "file": "operators/lion.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "maestro",
+      "file": "operators/maestro.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "maverick",
+      "file": "operators/maverick.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "melusi",
+      "file": "operators/melusi.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "mira",
+      "file": "operators/mira.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "montagne",
+      "file": "operators/montagne.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "mozzie",
+      "file": "operators/mozzie.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "mute",
+      "file": "operators/mute.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "nokk",
+      "file": "operators/nokk.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "nomad",
+      "file": "operators/nomad.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "oryx",
+      "file": "operators/oryx.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "osa",
+      "file": "operators/osa.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "pulse",
+      "file": "operators/pulse.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "ram",
+      "file": "operators/ram.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "rauora",
+      "file": "operators/rauora.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "rook",
+      "file": "operators/rook.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "sens",
+      "file": "operators/sens.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "sentry",
+      "file": "operators/sentry.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "skopos",
+      "file": "operators/skopos.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "smoke",
+      "file": "operators/smoke.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "solis",
+      "file": "operators/solis.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "tachanka",
+      "file": "operators/tachanka.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "thatcher",
+      "file": "operators/thatcher.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "thermite",
+      "file": "operators/thermite.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "thorn",
+      "file": "operators/thorn.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "thunderbird",
+      "file": "operators/thunderbird.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "tubarao",
+      "file": "operators/tubarao.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "twitch",
+      "file": "operators/twitch.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "valkyrie",
+      "file": "operators/valkyrie.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "vigil",
+      "file": "operators/vigil.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "wamai",
+      "file": "operators/wamai.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "warden",
+      "file": "operators/warden.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "ying",
+      "file": "operators/ying.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "zero",
+      "file": "operators/zero.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "zofia",
+      "file": "operators/zofia.svg",
+      "source": "r6operators (MIT)"
+    },
+    {
+      "slug": "noor",
+      "file": "operators/noor.png",
+      "source": "Ubisoft Operator Badge"
+    },
+    {
+      "slug": "solid-snake",
+      "file": "operators/solid-snake.png",
+      "source": "Ubisoft Operator Badge"
+    }
+  ],
+  "sources": {
+    "blueprints": "Ubisoft Blueprints (offizielle Kartenpläne), gespiegelt über siegestrats.com — © Ubisoft",
+    "keyarts": "staticctf.ubisoft.com — © Ubisoft",
+    "operatorIcons": "r6operators von Marco Vockner, MIT-Lizenz — github.com/marcopixel/r6operators",
+    "operatorBadges": "Offizielle Ubisoft Operator-Badges für Solid Snake & Noor — © Ubisoft"
+  }
+}

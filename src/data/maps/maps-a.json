@@ -1,0 +1,395 @@
+[
+  {
+    "slug": "bank",
+    "name": "Bank",
+    "location": "LA Savings & Loan, Los Angeles",
+    "floors": ["B", "1F", "2F"],
+    "ranked": true,
+    "siegeCup": false,
+    "pro": true,
+    "updated": "2026-11-11",
+    "notes": "Drei Etagen, starkes Vertikal-Spiel über dem Open Area. Klassiker im Pro-Pool.",
+    "spawns": [
+      { "name": "Alley Access (Süd)", "floor": "1F", "x": 58, "y": 84 },
+      { "name": "Plaza (Nord)", "floor": "2F", "x": 52, "y": 10 },
+      { "name": "Garage Ramp (West)", "floor": "B", "x": 30, "y": 58 },
+      { "name": "Back Alley (Nordost)", "floor": "2F", "x": 72, "y": 12 }
+    ],
+    "bombSites": [
+      { "id": "ceo", "name": "CEO Office / Executive Lounge", "short": "CEO", "floors": ["2F"] },
+      { "id": "open-area", "name": "Open Area / Staff Room", "short": "Open Area", "floors": ["1F"] },
+      { "id": "tellers", "name": "Tellers' Office / Archives", "short": "Tellers", "floors": ["1F"] },
+      { "id": "cctv", "name": "CCTV Room / Lockers", "short": "CCTV", "floors": ["B"] }
+    ],
+    "callouts": [
+      "Main Lobby / Atrium", "Open Area", "Staff Room", "Tellers", "Archives", "Loan Office",
+      "Skylight Stairwell", "Terrace", "Garage Ramp", "Vault", "CCTV Room", "Lockers", "Server Room"
+    ],
+    "landmarks": [
+      { "id": "vault", "floor": "B", "x": 40, "y": 44, "label": "Vault" },
+      { "id": "cctv-b", "floor": "B", "x": 55, "y": 42, "label": "CCTV Room" },
+      { "id": "lockers", "floor": "B", "x": 48, "y": 47, "label": "Lockers" },
+      { "id": "server-b", "floor": "B", "x": 63, "y": 37, "label": "Server Room" },
+      { "id": "garage-ramp", "floor": "B", "x": 36, "y": 58, "label": "Garage Ramp" },
+      { "id": "b-hall", "floor": "B", "x": 60, "y": 53, "label": "Basement Hall / Tunnel" },
+      { "id": "open-area", "floor": "1F", "x": 51, "y": 38, "label": "Open Area" },
+      { "id": "staff", "floor": "1F", "x": 59, "y": 41, "label": "Staff Room" },
+      { "id": "tellers", "floor": "1F", "x": 66, "y": 44, "label": "Tellers' Office" },
+      { "id": "archives", "floor": "1F", "x": 68, "y": 52, "label": "Archives" },
+      { "id": "lobby", "floor": "1F", "x": 57, "y": 23, "label": "Main Lobby / Atrium" },
+      { "id": "kitchen", "floor": "1F", "x": 65, "y": 61, "label": "Kitchen" },
+      { "id": "south-hall", "floor": "1F", "x": 57, "y": 66, "label": "South Hall" },
+      { "id": "loan", "floor": "1F", "x": 73, "y": 43, "label": "Loan Office" },
+      { "id": "ceo", "floor": "2F", "x": 58, "y": 36, "label": "CEO Office" },
+      { "id": "exec", "floor": "2F", "x": 67, "y": 40, "label": "Executive Lounge" },
+      { "id": "board", "floor": "2F", "x": 52, "y": 29, "label": "Board Room" },
+      { "id": "break", "floor": "2F", "x": 70, "y": 50, "label": "Break Room" },
+      { "id": "terrace", "floor": "2F", "x": 46, "y": 47, "label": "Terrace / Balkon" },
+      { "id": "skylight", "floor": "2F", "x": 61, "y": 55, "label": "Skylight Stairwell" },
+      { "id": "hall-2f", "floor": "2F", "x": 55, "y": 46, "label": "2F Hallway" }
+    ]
+  },
+  {
+    "slug": "border",
+    "name": "Border",
+    "location": "Grenzposten, Naher Osten",
+    "floors": ["1F", "2F"],
+    "ranked": true,
+    "siegeCup": false,
+    "pro": true,
+    "updated": "2026-11-11",
+    "notes": "Kompakte Map, schnelle Rotationswege. Beide Sites stark von außen angreifbar.",
+    "spawns": [
+      { "name": "East Road (Ost)", "floor": "1F", "x": 80, "y": 50 },
+      { "name": "West Road (West)", "floor": "1F", "x": 8, "y": 50 },
+      { "name": "Border Gate (Nord)", "floor": "2F", "x": 47, "y": 8 }
+    ],
+    "bombSites": [
+      { "id": "armory", "name": "Armory Lockers / Archives", "short": "Armory", "floors": ["2F"] },
+      { "id": "workshop", "name": "Workshop / Ventilation Room", "short": "Workshop", "floors": ["1F"] },
+      { "id": "customs", "name": "Customs Inspection / Supply Room", "short": "Customs", "floors": ["1F"] },
+      { "id": "tellers", "name": "Tellers / Bathroom", "short": "Tellers", "floors": ["1F"] }
+    ],
+    "callouts": [
+      "Main Hall", "Customs Inspection", "Supply Room", "Workshop", "Ventilation Room", "Tellers",
+      "Bathroom", "Armory Lockers", "Archives", "Briefing Room", "East Stairs", "West Stairs", "Garage"
+    ],
+    "landmarks": [
+      { "id": "customs", "floor": "1F", "x": 30, "y": 32, "label": "Customs Inspection" },
+      { "id": "supply", "floor": "1F", "x": 24, "y": 45, "label": "Supply Room" },
+      { "id": "workshop", "floor": "1F", "x": 47, "y": 33, "label": "Workshop" },
+      { "id": "ventilation", "floor": "1F", "x": 52, "y": 42, "label": "Ventilation Room" },
+      { "id": "tellers", "floor": "1F", "x": 60, "y": 45, "label": "Tellers" },
+      { "id": "bathroom", "floor": "1F", "x": 65, "y": 50, "label": "Bathroom" },
+      { "id": "main-hall", "floor": "1F", "x": 40, "y": 50, "label": "Main Hall / Lobby" },
+      { "id": "east-stairs", "floor": "1F", "x": 57, "y": 56, "label": "East Stairs" },
+      { "id": "west-stairs", "floor": "1F", "x": 30, "y": 52, "label": "West Stairs" },
+      { "id": "garage", "floor": "1F", "x": 47, "y": 61, "label": "Garage / Vehicle" },
+      { "id": "armory", "floor": "2F", "x": 45, "y": 30, "label": "Armory Lockers" },
+      { "id": "archives", "floor": "2F", "x": 52, "y": 27, "label": "Archives" },
+      { "id": "briefing", "floor": "2F", "x": 40, "y": 45, "label": "Briefing Room" },
+      { "id": "vents-2f", "floor": "2F", "x": 58, "y": 38, "label": "Ventilation 2F" },
+      { "id": "office-2f", "floor": "2F", "x": 36, "y": 55, "label": "Office" },
+      { "id": "hall-2f", "floor": "2F", "x": 47, "y": 52, "label": "2F Hallway" }
+    ]
+  },
+  {
+    "slug": "calypso-casino",
+    "name": "Calypso Casino",
+    "location": "Las Vegas, Nevada",
+    "floors": ["B", "1F", "2F"],
+    "ranked": true,
+    "siegeCup": false,
+    "pro": false,
+    "updated": "2026-11-11",
+    "notes": "Seit Y11S2 im Spiel (Showcase-Map). Layout-Erfahrung im Team noch dünn – Taktiken als Startpunkt, nicht als eingespieltes Setup.",
+    "spawns": [
+      { "name": "Valet (Nord)", "floor": "1F", "x": 62, "y": 10 },
+      { "name": "Loading Dock (Süd)", "floor": "1F", "x": 66, "y": 70 },
+      { "name": "Pool Deck (West)", "floor": "1F", "x": 40, "y": 45 }
+    ],
+    "bombSites": [
+      { "id": "cigar", "name": "Cigar Room / Pool", "short": "Cigar", "floors": ["2F"] },
+      { "id": "blackjack", "name": "Blackjack / Poker", "short": "Blackjack", "floors": ["1F"] },
+      { "id": "bar", "name": "Bar / Betting", "short": "Bar", "floors": ["1F"] },
+      { "id": "cctv", "name": "CCTV / Vault Checkpoint", "short": "CCTV", "floors": ["B"] }
+    ],
+    "callouts": [
+      "Lobby", "Blackjack", "Poker", "Bar", "Betting", "Cigar Room", "Pool", "High Roller",
+      "Vault", "CCTV", "Loading Dock", "Valet"
+    ],
+    "landmarks": [
+      { "id": "vault-casino", "floor": "B", "x": 62, "y": 27, "label": "Vault" },
+      { "id": "cctv-casino", "floor": "B", "x": 57, "y": 32, "label": "CCTV" },
+      { "id": "b-hall-casino", "floor": "B", "x": 66, "y": 36, "label": "Basement Hall" },
+      { "id": "blackjack", "floor": "1F", "x": 63, "y": 30, "label": "Blackjack" },
+      { "id": "poker", "floor": "1F", "x": 68, "y": 33, "label": "Poker" },
+      { "id": "bar-casino", "floor": "1F", "x": 58, "y": 40, "label": "Bar" },
+      { "id": "betting", "floor": "1F", "x": 64, "y": 42, "label": "Betting" },
+      { "id": "lobby-casino", "floor": "1F", "x": 61, "y": 50, "label": "Lobby" },
+      { "id": "cigar", "floor": "2F", "x": 62, "y": 27, "label": "Cigar Room" },
+      { "id": "pool-casino", "floor": "2F", "x": 67, "y": 25, "label": "Pool" },
+      { "id": "high-roller", "floor": "2F", "x": 58, "y": 35, "label": "High Roller" },
+      { "id": "hall-2f-casino", "floor": "2F", "x": 64, "y": 40, "label": "2F Hallway" }
+    ]
+  },
+  {
+    "slug": "chalet",
+    "name": "Chalet",
+    "location": "Courchevel, Französische Alpen",
+    "floors": ["B", "1F", "2F"],
+    "ranked": true,
+    "siegeCup": false,
+    "pro": true,
+    "updated": "2026-11-11",
+    "notes": "Starkes Vertikal-Spiel; Bar/Gaming und Wine Cellar sind die gängigen Verteidigungs-Sites.",
+    "spawns": [
+      { "name": "Campfire (Süd)", "floor": "1F", "x": 40, "y": 80 },
+      { "name": "Front Yard (Nord)", "floor": "1F", "x": 58, "y": 10 },
+      { "name": "Snowmobile (West)", "floor": "1F", "x": 22, "y": 60 },
+      { "name": "Back Yard (Ost)", "floor": "1F", "x": 83, "y": 45 }
+    ],
+    "bombSites": [
+      { "id": "master", "name": "Master Bedroom / Office", "short": "Master", "floors": ["2F"] },
+      { "id": "bar", "name": "Bar / Gaming Room", "short": "Bar", "floors": ["1F"] },
+      { "id": "dining", "name": "Dining Room / Kitchen", "short": "Dining", "floors": ["1F"] },
+      { "id": "wine", "name": "Wine Cellar / Snowmobile Garage", "short": "Wine", "floors": ["B"] }
+    ],
+    "callouts": [
+      "Main Entrance", "Bar", "Gaming Room", "Great Room", "Dining Room", "Kitchen",
+      "Master Bedroom", "Office", "Library", "Wine Cellar", "Snowmobile Garage", "Balcony"
+    ],
+    "landmarks": [
+      { "id": "wine", "floor": "B", "x": 62, "y": 34, "label": "Wine Cellar" },
+      { "id": "snowmobile", "floor": "B", "x": 56, "y": 46, "label": "Snowmobile Garage" },
+      { "id": "b-hall", "floor": "B", "x": 55, "y": 60, "label": "Basement Corridor" },
+      { "id": "b-garage", "floor": "B", "x": 52, "y": 72, "label": "Garage" },
+      { "id": "dining", "floor": "1F", "x": 56, "y": 34, "label": "Dining Room" },
+      { "id": "kitchen", "floor": "1F", "x": 64, "y": 45, "label": "Kitchen" },
+      { "id": "bar", "floor": "1F", "x": 47, "y": 66, "label": "Bar" },
+      { "id": "gaming", "floor": "1F", "x": 55, "y": 60, "label": "Gaming Room" },
+      { "id": "great-room", "floor": "1F", "x": 62, "y": 58, "label": "Great Room" },
+      { "id": "trophy-1f", "floor": "1F", "x": 70, "y": 52, "label": "Trophy / Office" },
+      { "id": "main-entrance", "floor": "1F", "x": 52, "y": 78, "label": "Main Entrance" },
+      { "id": "master", "floor": "2F", "x": 60, "y": 28, "label": "Master Bedroom" },
+      { "id": "office-2f", "floor": "2F", "x": 66, "y": 33, "label": "Office" },
+      { "id": "balcony", "floor": "2F", "x": 50, "y": 45, "label": "Balcony / Hallway" },
+      { "id": "bedroom-2f", "floor": "2F", "x": 56, "y": 52, "label": "Bedroom" },
+      { "id": "library", "floor": "2F", "x": 66, "y": 60, "label": "Library" }
+    ]
+  },
+  {
+    "slug": "clubhouse",
+    "name": "Clubhouse",
+    "location": "Hannover, Deutschland",
+    "floors": ["B", "1F", "2F"],
+    "ranked": true,
+    "siegeCup": false,
+    "pro": true,
+    "updated": "2026-11-11",
+    "notes": "Konstantester Pro-Pool-Pick. Church/Arsenal (B) und Gym/CCTV (2F) sind die Kern-Sites.",
+    "spawns": [
+      { "name": "Construction (Nord)", "floor": "1F", "x": 47, "y": 10 },
+      { "name": "Main Entrance (Ost)", "floor": "1F", "x": 70, "y": 60 },
+      { "name": "Strip Club (Süd)", "floor": "1F", "x": 56, "y": 80 },
+      { "name": "Warehouse (West)", "floor": "1F", "x": 28, "y": 45 }
+    ],
+    "bombSites": [
+      { "id": "gym", "name": "Gym / Bedroom", "short": "Gym", "floors": ["2F"] },
+      { "id": "cctv", "name": "CCTV Room / Cash Room", "short": "CCTV", "floors": ["2F"] },
+      { "id": "bar", "name": "Bar / Stock Room", "short": "Bar", "floors": ["1F"] },
+      { "id": "church", "name": "Church / Arsenal Room", "short": "Church", "floors": ["B"] }
+    ],
+    "callouts": [
+      "Main Lobby", "Bar", "Stock Room", "Kitchen", "Reception", "Gym", "Bedroom", "CCTV Room",
+      "Cash Room", "Strip Club", "Construction", "Church", "Arsenal Room", "Blue Stairs"
+    ],
+    "landmarks": [
+      { "id": "church", "floor": "B", "x": 55, "y": 27, "label": "Church" },
+      { "id": "arsenal", "floor": "B", "x": 62, "y": 31, "label": "Arsenal Room" },
+      { "id": "b-hall", "floor": "B", "x": 50, "y": 40, "label": "Basement Hall" },
+      { "id": "blue-stairs", "floor": "B", "x": 60, "y": 46, "label": "Blue Stairs" },
+      { "id": "bar", "floor": "1F", "x": 43, "y": 42, "label": "Bar" },
+      { "id": "stock", "floor": "1F", "x": 51, "y": 36, "label": "Stock Room" },
+      { "id": "main-lobby", "floor": "1F", "x": 55, "y": 60, "label": "Main Lobby" },
+      { "id": "garage", "floor": "1F", "x": 46, "y": 64, "label": "Garage" },
+      { "id": "kitchen", "floor": "1F", "x": 62, "y": 47, "label": "Kitchen" },
+      { "id": "reception", "floor": "1F", "x": 60, "y": 55, "label": "Reception" },
+      { "id": "gym", "floor": "2F", "x": 52, "y": 32, "label": "Gym" },
+      { "id": "bedroom", "floor": "2F", "x": 45, "y": 27, "label": "Bedroom" },
+      { "id": "cctv", "floor": "2F", "x": 56, "y": 42, "label": "CCTV Room" },
+      { "id": "cash", "floor": "2F", "x": 62, "y": 44, "label": "Cash Room" },
+      { "id": "strip", "floor": "2F", "x": 55, "y": 62, "label": "Strip Club" },
+      { "id": "construction", "floor": "2F", "x": 42, "y": 55, "label": "Construction Site" }
+    ]
+  },
+  {
+    "slug": "coastline",
+    "name": "Coastline",
+    "location": "Ibiza, Spanien",
+    "floors": ["1F", "2F"],
+    "ranked": true,
+    "siegeCup": false,
+    "pro": false,
+    "updated": "2026-11-11",
+    "notes": "Zwei Etagen, offene Fensterfronten. Hookah/Theater und Blue Bar/Kitchen sind die Standard-Sites.",
+    "spawns": [
+      { "name": "Ruins (Nord)", "floor": "1F", "x": 37, "y": 10 },
+      { "name": "Main Entrance (Süd)", "floor": "1F", "x": 38, "y": 78 },
+      { "name": "Pool (Ost)", "floor": "1F", "x": 62, "y": 45 },
+      { "name": "Oasis (West)", "floor": "1F", "x": 15, "y": 40 }
+    ],
+    "bombSites": [
+      { "id": "theater", "name": "Theater / Penthouse", "short": "Theater", "floors": ["2F"] },
+      { "id": "hookah", "name": "Hookah Lounge / Billiards", "short": "Hookah", "floors": ["2F"] },
+      { "id": "blue-bar", "name": "Blue Bar / Sunrise Bar", "short": "Blue Bar", "floors": ["1F"] },
+      { "id": "kitchen", "name": "Kitchen / Service Entrance", "short": "Kitchen", "floors": ["1F"] }
+    ],
+    "callouts": [
+      "Blue Bar", "Sunrise Bar", "Kitchen", "Service Entrance", "Main Lobby", "Courtyard",
+      "Theater", "Penthouse", "Hookah Lounge", "Billiards", "Hall of Fame", "VIP"
+    ],
+    "landmarks": [
+      { "id": "blue-bar", "floor": "1F", "x": 25, "y": 30, "label": "Blue Bar" },
+      { "id": "sunrise", "floor": "1F", "x": 33, "y": 26, "label": "Sunrise Bar" },
+      { "id": "kitchen", "floor": "1F", "x": 44, "y": 25, "label": "Kitchen" },
+      { "id": "service", "floor": "1F", "x": 50, "y": 31, "label": "Service Entrance" },
+      { "id": "lobby", "floor": "1F", "x": 38, "y": 45, "label": "Main Lobby" },
+      { "id": "courtyard", "floor": "1F", "x": 29, "y": 56, "label": "Courtyard" },
+      { "id": "hall-1f", "floor": "1F", "x": 47, "y": 48, "label": "1F Hallway" },
+      { "id": "theater", "floor": "2F", "x": 33, "y": 27, "label": "Theater" },
+      { "id": "penthouse", "floor": "2F", "x": 45, "y": 24, "label": "Penthouse" },
+      { "id": "hookah", "floor": "2F", "x": 27, "y": 42, "label": "Hookah Lounge" },
+      { "id": "billiards", "floor": "2F", "x": 35, "y": 47, "label": "Billiards Room" },
+      { "id": "hall-of-fame", "floor": "2F", "x": 45, "y": 42, "label": "Hall of Fame" },
+      { "id": "vip", "floor": "2F", "x": 47, "y": 55, "label": "VIP / 2F Hall" }
+    ]
+  },
+  {
+    "slug": "consulate",
+    "name": "Consulate",
+    "location": "Abidjan, Elfenbeinküste",
+    "floors": ["B", "1F", "2F"],
+    "ranked": true,
+    "siegeCup": false,
+    "pro": false,
+    "updated": "2026-11-11",
+    "notes": "2026 aus dem Pro-Pool gefallen (Villa ersetzt Consulate), bleibt aber im Ranked-Pool.",
+    "spawns": [
+      { "name": "Front Gate (Nord)", "floor": "1F", "x": 58, "y": 30 },
+      { "name": "Parking (Süd)", "floor": "1F", "x": 62, "y": 72 },
+      { "name": "Police Line (Ost)", "floor": "1F", "x": 75, "y": 52 },
+      { "name": "Side Entrance (West)", "floor": "1F", "x": 48, "y": 55 }
+    ],
+    "bombSites": [
+      { "id": "meeting", "name": "Meeting Room / Consulate Office", "short": "Meeting", "floors": ["2F"] },
+      { "id": "piano", "name": "Piano Room / Exposition Room", "short": "Piano", "floors": ["1F"] },
+      { "id": "tellers", "name": "Tellers / B Servers", "short": "Tellers", "floors": ["1F"] },
+      { "id": "cafeteria", "name": "Cafeteria / Garage", "short": "Cafeteria", "floors": ["B"] }
+    ],
+    "callouts": [
+      "Main Entrance", "Lobby", "Piano Room", "Exposition", "Tellers", "Servers", "Meeting Room",
+      "Consulate Office", "Admin", "Cafeteria", "Garage", "Visa"
+    ],
+    "landmarks": [
+      { "id": "cafeteria", "floor": "B", "x": 58, "y": 60, "label": "Cafeteria" },
+      { "id": "garage", "floor": "B", "x": 63, "y": 63, "label": "Garage" },
+      { "id": "b-hall", "floor": "B", "x": 60, "y": 55, "label": "Basement Hall" },
+      { "id": "piano", "floor": "1F", "x": 57, "y": 55, "label": "Piano Room" },
+      { "id": "exposition", "floor": "1F", "x": 62, "y": 57, "label": "Exposition Room" },
+      { "id": "tellers", "floor": "1F", "x": 60, "y": 50, "label": "Tellers" },
+      { "id": "servers", "floor": "1F", "x": 65, "y": 52, "label": "B Servers" },
+      { "id": "main-lobby", "floor": "1F", "x": 59, "y": 40, "label": "Main Entrance" },
+      { "id": "visa", "floor": "1F", "x": 55, "y": 45, "label": "Visa" },
+      { "id": "meeting", "floor": "2F", "x": 57, "y": 48, "label": "Meeting Room" },
+      { "id": "office-2f", "floor": "2F", "x": 62, "y": 50, "label": "Consulate Office" },
+      { "id": "admin", "floor": "2F", "x": 55, "y": 55, "label": "Admin Office" },
+      { "id": "hall-2f", "floor": "2F", "x": 60, "y": 58, "label": "2F Hallway" },
+      { "id": "archives-2f", "floor": "2F", "x": 65, "y": 55, "label": "Archives" }
+    ]
+  },
+  {
+    "slug": "fortress",
+    "name": "Fortress",
+    "location": "Atlas, Marokko",
+    "floors": ["1F", "2F"],
+    "ranked": true,
+    "siegeCup": false,
+    "pro": true,
+    "updated": "2026-11-11",
+    "notes": "Nach dem Rework im Pro-Pool (ersetzte Skyscraper). Viele Dach- und Fensterwinkel.",
+    "spawns": [
+      { "name": "Main Gate (Süd)", "floor": "1F", "x": 61, "y": 74 },
+      { "name": "Canyon (Nord)", "floor": "1F", "x": 64, "y": 30 },
+      { "name": "Ridge (West)", "floor": "1F", "x": 48, "y": 48 },
+      { "name": "Courtyard (Ost)", "floor": "1F", "x": 78, "y": 52 }
+    ],
+    "bombSites": [
+      { "id": "commander", "name": "Commander's Office / Bathroom", "short": "Commander", "floors": ["2F"] },
+      { "id": "dormitory", "name": "Dormitory / Games Room", "short": "Dormitory", "floors": ["2F"] },
+      { "id": "waiting", "name": "Waiting Room / Cafeteria", "short": "Waiting", "floors": ["1F"] },
+      { "id": "hammam", "name": "Hammam / Sitting Room", "short": "Hammam", "floors": ["1F"] }
+    ],
+    "callouts": [
+      "Main Lobby", "Waiting Room", "Cafeteria", "Hammam", "Sitting Room", "Commander's Office",
+      "Bathroom", "Dormitory", "Games Room", "Stairwell", "Rooftop"
+    ],
+    "landmarks": [
+      { "id": "waiting", "floor": "1F", "x": 60, "y": 45, "label": "Waiting Room" },
+      { "id": "cafeteria", "floor": "1F", "x": 64, "y": 47, "label": "Cafeteria" },
+      { "id": "hammam", "floor": "1F", "x": 66, "y": 55, "label": "Hammam" },
+      { "id": "sitting", "floor": "1F", "x": 61, "y": 57, "label": "Sitting Room" },
+      { "id": "lobby", "floor": "1F", "x": 57, "y": 50, "label": "Main Lobby" },
+      { "id": "storage", "floor": "1F", "x": 56, "y": 60, "label": "Storage / Courtyard" },
+      { "id": "commander", "floor": "2F", "x": 62, "y": 42, "label": "Commander's Office" },
+      { "id": "bathroom", "floor": "2F", "x": 67, "y": 44, "label": "Bathroom" },
+      { "id": "dormitory", "floor": "2F", "x": 64, "y": 50, "label": "Dormitory" },
+      { "id": "games", "floor": "2F", "x": 69, "y": 53, "label": "Games Room" },
+      { "id": "stairwell", "floor": "2F", "x": 58, "y": 47, "label": "Stairwell" },
+      { "id": "hall-2f", "floor": "2F", "x": 60, "y": 56, "label": "2F Hallway" }
+    ]
+  },
+  {
+    "slug": "kafe",
+    "name": "Kafe Dostoyevsky",
+    "location": "Moskau, Russland",
+    "floors": ["1F", "2F", "3F"],
+    "ranked": true,
+    "siegeCup": true,
+    "pro": true,
+    "updated": "2026-11-11",
+    "notes": "Drei Etagen mit starkem Dach- und Fensterdruck. Cocktail/Bar (3F) ist die historische Kern-Site.",
+    "spawns": [
+      { "name": "Main Entrance (Süd)", "floor": "1F", "x": 58, "y": 72 },
+      { "name": "Park (Nord)", "floor": "3F", "x": 60, "y": 12 },
+      { "name": "Allée (West)", "floor": "1F", "x": 46, "y": 50 },
+      { "name": "Bakery (Ost)", "floor": "1F", "x": 76, "y": 50 }
+    ],
+    "bombSites": [
+      { "id": "cocktail", "name": "Cocktail Lounge / Bar", "short": "Cocktail", "floors": ["3F"] },
+      { "id": "fireplace", "name": "Fireplace Hall / Mining Room", "short": "Fireplace", "floors": ["2F"] },
+      { "id": "reading", "name": "Reading Room / Fireplace Hall", "short": "Reading", "floors": ["2F"] },
+      { "id": "kitchen", "name": "Kitchen Service / Kitchen Cooking", "short": "Kitchen", "floors": ["1F"] }
+    ],
+    "callouts": [
+      "Main Entrance", "Lobby", "Bakery", "Kitchen Service", "Kitchen Cooking", "Fireplace Hall",
+      "Mining Room", "Reading Room", "Piano", "Cocktail Lounge", "Bar", "Terrace", "Skylight"
+    ],
+    "landmarks": [
+      { "id": "kitchen-service", "floor": "1F", "x": 62, "y": 52, "label": "Kitchen Service" },
+      { "id": "kitchen-cooking", "floor": "1F", "x": 66, "y": 55, "label": "Kitchen Cooking" },
+      { "id": "bakery", "floor": "1F", "x": 56, "y": 50, "label": "Bakery / Prep" },
+      { "id": "lobby", "floor": "1F", "x": 58, "y": 45, "label": "Main Lobby" },
+      { "id": "stairs", "floor": "1F", "x": 63, "y": 45, "label": "Main Stairs" },
+      { "id": "fireplace", "floor": "2F", "x": 61, "y": 50, "label": "Fireplace Hall" },
+      { "id": "mining", "floor": "2F", "x": 66, "y": 46, "label": "Mining Room" },
+      { "id": "reading", "floor": "2F", "x": 56, "y": 52, "label": "Reading Room" },
+      { "id": "hall-2f", "floor": "2F", "x": 60, "y": 57, "label": "2F Hallway" },
+      { "id": "piano-kafe", "floor": "2F", "x": 64, "y": 55, "label": "Piano / Bar 2F" },
+      { "id": "cocktail", "floor": "3F", "x": 60, "y": 48, "label": "Cocktail Lounge" },
+      { "id": "bar-3f", "floor": "3F", "x": 66, "y": 47, "label": "Bar" },
+      { "id": "terrace-kafe", "floor": "3F", "x": 55, "y": 55, "label": "Terrace" },
+      { "id": "skylight-kafe", "floor": "3F", "x": 63, "y": 55, "label": "Skylight / Hall" }
+    ]
+  }
+]

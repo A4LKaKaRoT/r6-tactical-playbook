@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="R6 Tactical Playbook">
+  <rect width="512" height="512" rx="96" fill="#0c0d0f"/>
+  <rect x="26" y="26" width="460" height="460" rx="72" fill="none" stroke="#262c2f" stroke-width="6"/>
+  <rect x="82" y="112" width="36" height="288" fill="#d63a34"/>
+  <rect x="394" y="112" width="36" height="288" fill="#3a7ac4"/>
+  <text x="256" y="300" text-anchor="middle" font-family="system-ui, Segoe UI, Roboto, sans-serif"
+        font-size="184" font-weight="800" fill="#e8eaed">R6</text>
+  <rect x="176" y="336" width="160" height="8" rx="4" fill="#5a6469"/>
+</svg>

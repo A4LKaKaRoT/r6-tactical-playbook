@@ -1,0 +1,54 @@
+name: CI
+
+# Prüft Pull Requests und manuelle Läufe, ohne zu deployen.
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Typen, Daten, Tests, Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Node.js LTS einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Abhängigkeiten installieren
+        run: npm ci
+
+      - name: Taktiken + Varianten erzeugen
+        run: npm run tactics:build
+
+      - name: TypeScript prüfen
+        run: npm run typecheck
+
+      - name: Daten validieren
+        run: npm run validate
+
+      - name: Tests
+        run: npm test
+
+      - name: Build (lokale base)
+        run: npm run build
+
+      - name: Build prüfen
+        run: |
+          set -e
+          test -f dist/404.html || (echo "SPA-Fallback fehlt" && exit 1)
+          test -f dist/sw.js || (echo "Service Worker fehlt" && exit 1)
+          test -f dist/manifest.webmanifest || (echo "Manifest fehlt" && exit 1)
+          echo "OK"

@@ -1,0 +1,10 @@
+{
+  "teamName": "Unsere Roster",
+  "players": [
+    { "slot": 1, "name": "Spieler 1", "preferredRoles": ["Anchor"], "note": "Site-Anker, hält den Primärwinkel" },
+    { "slot": 2, "name": "Spieler 2", "preferredRoles": ["Flex-Anchor"], "note": "Zweiter Anker, deckt Rotationen ab" },
+    { "slot": 3, "name": "Spieler 3", "preferredRoles": ["Roamer"], "note": "Aktiver Roamer, Flank-Druck" },
+    { "slot": 4, "name": "Spieler 4", "preferredRoles": ["Deep-Roamer"], "note": "Tiefer Roamer, verzögert Angreifer" },
+    { "slot": 5, "name": "Spieler 5", "preferredRoles": ["Utility-Support"], "note": "Utility/Support, Hard Breach bzw. Anti-Breach" }
+  ]
+}
